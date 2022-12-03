@@ -1,6 +1,6 @@
 # ENPM_808X_FINAL
 
-[![Build Status](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/build_and_coveralls.yml/badge.svg)](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/build_and_coveralls.yml)
+[![Build Status](https://github.com/saahu27/ENPM_808X_FINAL/tree/sahruday/actions/workflows/build_and_coveralls.yml/badge.svg)](https://github.com/saahu27/ENPM_808X_FINAL/tree/sahruday/actions/workflows/build_and_coveralls.yml)
 
 [![Build Status](https://github.com/Vishaal-Kanna/ENPM808X_Midterm_Project/actions/workflows/build_and_coveralls.yml/badge.svg)](https://github.com/Vishaal-Kanna/ENPM808X_Midterm_Project/actions/workflows/build_and_coveralls.yml)
 

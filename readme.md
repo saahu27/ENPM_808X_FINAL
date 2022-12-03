@@ -1,14 +1,12 @@
 # ENPM_808X_FINAL
 
-[![Build Status](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/build_and_coveralls.yml/badge.png)](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/build_and_coveralls.yml)
+[![Build Status](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/build_and_coveralls.yml/badge.svg)](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/build_and_coveralls.yml)
+
+[![Build Status](https://github.com/Vishaal-Kanna/ENPM808X_Midterm_Project/actions/workflows/build_and_coveralls.yml/badge.svg)](https://github.com/Vishaal-Kanna/ENPM808X_Midterm_Project/actions/workflows/build_and_coveralls.yml)
 
 [![Coverage Status](https://coveralls.io/repos/github/saahu27/ENPM_808X_FINAL/badge.svg?branch=master)](https://coveralls.io/github/saahu27/ENPM_808X_FINAL?branch=master)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-[![Coverage Status](https://coveralls.io/repos/github/Vishaal-Kanna/ENPM808X_Midterm_Project/badge.svg?branch=main)](https://coveralls.io/github/Vishaal-Kanna/ENPM808X_Midterm_Project?branch=main)
-
-[![Build Status](https://app.travis-ci.com/saahu27/ENPM_808X_FINAL.svg?branch=main)](https://app.travis-ci.com/saahu27/ENPM_808X_FINAL)
 
 # C++ Boilerplate
 [![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)

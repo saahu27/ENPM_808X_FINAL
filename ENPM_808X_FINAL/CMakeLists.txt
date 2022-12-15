@@ -82,8 +82,7 @@ add_executable(tb3G src/tb3controller.cpp)
 ament_target_dependencies(tb3G rclcpp std_msgs geometry_msgs sensor_msgs nav_msgs tf2 tf2_ros)
 # rosidl_target_interfaces(talker ${PROJECT_NAME} "rosidl_typesupport_cpp")
 # TO make sure that executable files can link to service and message headers
-rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
-target_link_libraries(tb3G "${cpp_typesupport_target}")
+
 
 add_executable(turtlebot_sim src/turtlebot_sim.cpp)
 ament_target_dependencies(turtlebot_sim rclcpp tutorial_interfaces std_msgs geometry_msgs sensor_msgs nav_msgs tf2 tf2_ros)

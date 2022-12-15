@@ -1,0 +1,1344 @@
+[0.000000] (-) TimerEvent: {}
+[0.000554] (ros2_aruco) JobQueued: {'identifier': 'ros2_aruco', 'dependencies': OrderedDict([('ros2_aruco', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco')])}
+[0.000585] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces')])}
+[0.000606] (tb3) JobQueued: {'identifier': 'tb3', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces'), ('tb3', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3')])}
+[0.000636] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.007093] (ros2_aruco) JobStarted: {'identifier': 'ros2_aruco'}
+[0.099766] (-) TimerEvent: {}
+[0.162396] (ros2_aruco) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ros2_aruco', 'env': {'HOSTNAME': 'fa2a076f34cb', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chotu', 'OLDPWD': '/home/chotu/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker6auzguhv.xauth', 'AMENT_PREFIX_PATH': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:3cbeac55-f9ad-401f-a59f-3e2fbefe48db', 'PWD': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/pytest.xml --junit-prefix=ros2_aruco -o cache_dir=/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/.pytest_cache'}, 'shell': False}
+[0.164751] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', 'fa2a076f34cb'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chotu'), ('OLDPWD', '/home/chotu/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker6auzguhv.xauth'), ('AMENT_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:3cbeac55-f9ad-401f-a59f-3e2fbefe48db'), ('PWD', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3')]), 'shell': False}
+[0.168891] (tutorial_interfaces) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/CTestConfiguration.ini\n'}
+[0.168999] (tutorial_interfaces) StdoutLine: {'line': b'Parse Config file:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/CTestConfiguration.ini\n'}
+[0.169059] (tutorial_interfaces) StdoutLine: {'line': b'   Site: fa2a076f34cb\n'}
+[0.169118] (tutorial_interfaces) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.169208] (tutorial_interfaces) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.169267] (tutorial_interfaces) StdoutLine: {'line': b'Create new tag: 20221215-0429 - Experimental\n'}
+[0.169318] (tutorial_interfaces) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/CTestConfiguration.ini\n'}
+[0.169372] (tutorial_interfaces) StdoutLine: {'line': b'Parse Config file:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/CTestConfiguration.ini\n'}
+[0.169423] (tutorial_interfaces) StdoutLine: {'line': b'Test project /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces\n'}
+[0.169474] (tutorial_interfaces) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.169564] (tutorial_interfaces) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.169610] (tutorial_interfaces) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.169653] (tutorial_interfaces) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.169693] (tutorial_interfaces) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.169733] (tutorial_interfaces) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.169775] (tutorial_interfaces) StdoutLine: {'line': b'test 1\n'}
+[0.169815] (tutorial_interfaces) StdoutLine: {'line': b'    Start 1: lint_cmake\n'}
+[0.169854] (tutorial_interfaces) StdoutLine: {'line': b'\n'}
+[0.169894] (tutorial_interfaces) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml"\n'}
+[0.169939] (tutorial_interfaces) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.200362] (-) TimerEvent: {}
+[0.214255] (tutorial_interfaces) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/tutorial_interfaces':\n"}
+[0.214462] (tutorial_interfaces) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml\n'}
+[0.256371] (tutorial_interfaces) StdoutLine: {'line': b'1: \n'}
+[0.256541] (tutorial_interfaces) StdoutLine: {'line': b'1: No problems found\n'}
+[0.262772] (tutorial_interfaces) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.262923] (tutorial_interfaces) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml'\n"}
+[0.268485] (tutorial_interfaces) StdoutLine: {'line': b'1/2 Test #1: lint_cmake .......................   Passed    0.10 sec\n'}
+[0.268685] (tutorial_interfaces) StdoutLine: {'line': b'test 2\n'}
+[0.268768] (tutorial_interfaces) StdoutLine: {'line': b'    Start 2: xmllint\n'}
+[0.268840] (tutorial_interfaces) StdoutLine: {'line': b'\n'}
+[0.268897] (tutorial_interfaces) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml"\n'}
+[0.268958] (tutorial_interfaces) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.300463] (-) TimerEvent: {}
+[0.304096] (tutorial_interfaces) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/tutorial_interfaces':\n"}
+[0.304267] (tutorial_interfaces) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml\n'}
+[0.381166] (ros2_aruco) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.381333] (ros2_aruco) StdoutLine: {'line': b'platform linux -- Python 3.10.6, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.383490] (ros2_aruco) StdoutLine: {'line': b'cachedir: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/.pytest_cache\n'}
+[0.383632] (ros2_aruco) StdoutLine: {'line': b'rootdir: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/ros2_aruco\n'}
+[0.383697] (ros2_aruco) StdoutLine: {'line': b'plugins: launch-testing-ros-0.19.3, ament-copyright-0.12.4, launch-testing-1.0.3, ament-flake8-0.12.4, ament-lint-0.12.4, ament-pep257-0.12.4, ament-xmllint-0.12.4, colcon-core-0.11.0\n'}
+[0.400577] (-) TimerEvent: {}
+[0.450590] (ros2_aruco) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.450777] (ros2_aruco) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.450842] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.500679] (-) TimerEvent: {}
+[0.529810] (ros2_aruco) StdoutLine: {'line': b'test/test_copyright.py \x1b[31mF\x1b[0m\x1b[31m                                                 [ 33%]\x1b[0m\n'}
+[0.600787] (-) TimerEvent: {}
+[0.701057] (-) TimerEvent: {}
+[0.762892] (ros2_aruco) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[0.763108] (tutorial_interfaces) StdoutLine: {'line': b"2: File 'package.xml' is valid\n"}
+[0.763200] (tutorial_interfaces) StdoutLine: {'line': b'2: \n'}
+[0.763297] (tutorial_interfaces) StdoutLine: {'line': b'2: No problems found\n'}
+[0.769930] (tutorial_interfaces) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.770119] (tutorial_interfaces) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml'\n"}
+[0.776686] (tutorial_interfaces) StdoutLine: {'line': b'2/2 Test #2: xmllint ..........................   Passed    0.51 sec\n'}
+[0.776909] (tutorial_interfaces) StdoutLine: {'line': b'\n'}
+[0.777003] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 2\n'}
+[0.777082] (tutorial_interfaces) StdoutLine: {'line': b'\n'}
+[0.777158] (tutorial_interfaces) StdoutLine: {'line': b'Label Time Summary:\n'}
+[0.777238] (tutorial_interfaces) StdoutLine: {'line': b'lint_cmake    =   0.10 sec*proc (1 test)\n'}
+[0.777320] (tutorial_interfaces) StdoutLine: {'line': b'linter        =   0.61 sec*proc (2 tests)\n'}
+[0.777400] (tutorial_interfaces) StdoutLine: {'line': b'xmllint       =   0.51 sec*proc (1 test)\n'}
+[0.777478] (tutorial_interfaces) StdoutLine: {'line': b'\n'}
+[0.777556] (tutorial_interfaces) StdoutLine: {'line': b'Total Test time (real) =   0.61 sec\n'}
+[0.801047] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[0.802729] (-) TimerEvent: {}
+[0.802872] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[0.803149] (tb3) JobStarted: {'identifier': 'tb3'}
+[0.817218] (tb3) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3', 'env': OrderedDict([('HOSTNAME', 'fa2a076f34cb'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chotu'), ('OLDPWD', '/home/chotu/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker6auzguhv.xauth'), ('AMENT_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:3cbeac55-f9ad-401f-a59f-3e2fbefe48db'), ('PWD', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces')]), 'shell': False}
+[0.821214] (tb3) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/CTestConfiguration.ini\n'}
+[0.821379] (tb3) StdoutLine: {'line': b'Parse Config file:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/CTestConfiguration.ini\n'}
+[0.821468] (tb3) StdoutLine: {'line': b'   Site: fa2a076f34cb\n'}
+[0.821551] (tb3) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.821632] (tb3) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.821889] (tb3) StdoutLine: {'line': b'Create new tag: 20221215-0429 - Experimental\n'}
+[0.821982] (tb3) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/CTestConfiguration.ini\n'}
+[0.822058] (tb3) StdoutLine: {'line': b'Parse Config file:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/CTestConfiguration.ini\n'}
+[0.822157] (tb3) StdoutLine: {'line': b'Test project /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3\n'}
+[0.822243] (tb3) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.822320] (tb3) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.822398] (tb3) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.822475] (tb3) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.822554] (tb3) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.822632] (tb3) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.822710] (tb3) StdoutLine: {'line': b'test 1\n'}
+[0.822786] (tb3) StdoutLine: {'line': b'    Start 1: tb3_test\n'}
+[0.822861] (tb3) StdoutLine: {'line': b'\n'}
+[0.822936] (tb3) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/tb3_test.gtest.xml" "--package-name" "tb3" "--output-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/ament_cmake_gtest/tb3_test.txt" "--command" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/tb3_test" "--gtest_output=xml:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/tb3_test.gtest.xml"\n'}
+[0.823016] (tb3) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.855614] (ros2_aruco) StdoutLine: {'line': b'test/test_pep257.py \x1b[31mF\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.855852] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.855963] (ros2_aruco) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.856061] (ros2_aruco) StdoutLine: {'line': b'\x1b[31m\x1b[1m________________________________ test_copyright ________________________________\x1b[0m\n'}
+[0.856162] (ros2_aruco) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_copyright.py\x1b[0m:23: in test_copyright\n'}
+[0.858812] (tb3) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3':\n"}
+[0.858966] (tb3) StdoutLine: {'line': b'1:  - /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/tb3_test --gtest_output=xml:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/tb3_test.gtest.xml\n'}
+[0.874682] (tb3) StdoutLine: {'line': b'1: [==========] Running 1 test from 1 test suite.\n'}
+[0.874843] (tb3) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.874908] (tb3) StdoutLine: {'line': b'1: [----------] 1 test from TaskPlanningFixture\n'}
+[0.874964] (tb3) StdoutLine: {'line': b'1: [ RUN      ] TaskPlanningFixture.TrueIsTrueTest\n'}
+[0.882840] (ros2_aruco) StdoutLine: {'line': b"    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \x1b[33m'\x1b[39;49;00m\x1b[33mFound errors\x1b[39;49;00m\x1b[33m'\x1b[39;49;00m\n"}
+[0.883043] (ros2_aruco) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found errors\x1b[0m\n'}
+[0.883150] (ros2_aruco) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.883212] (ros2_aruco) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[0.883290] (ros2_aruco) StdoutLine: {'line': b'launch/usb_camera_node.launch.py: could not find copyright notice\n'}
+[0.883349] (ros2_aruco) StdoutLine: {'line': b'ros2_aruco/aruco_generate_marker.py: could not find copyright notice\n'}
+[0.883403] (ros2_aruco) StdoutLine: {'line': b'ros2_aruco/aruco_node.py: could not find copyright notice\n'}
+[0.883457] (ros2_aruco) StdoutLine: {'line': b'ros2_aruco/transformations.py: could not find copyright notice\n'}
+[0.883517] (ros2_aruco) StdoutLine: {'line': b'4 errors, checked 8 files\n'}
+[0.883571] (ros2_aruco) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.883623] (ros2_aruco) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.884209] (ros2_aruco) StdoutLine: {'line': b"    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \x1b[33m'\x1b[39;49;00m\x1b[33mFound errors\x1b[39;49;00m\x1b[33m'\x1b[39;49;00m\n"}
+[0.884262] (ros2_aruco) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found errors\x1b[0m\n'}
+[0.884314] (ros2_aruco) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.884365] (ros2_aruco) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.884413] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.884469] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/transformations.py:59:31: W605 invalid escape sequence '\\*'\n"}
+[0.884520] (ros2_aruco) StdoutLine: {'line': b'"""Homogeneous Transformation Matrices and Quaternions.\n'}
+[0.885250] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.885315] (ros2_aruco) StdoutLine: {'line': b'A library for calculating 4x4 matrices for translating, rotating, reflecting,\n'}
+[0.885370] (ros2_aruco) StdoutLine: {'line': b'scaling, shearing, projecting, orthogonalizing, and superimposing arrays of\n'}
+[0.885420] (ros2_aruco) StdoutLine: {'line': b'3D homogeneous coordinates as well as for converting between rotation matrices,\n'}
+[0.885470] (ros2_aruco) StdoutLine: {'line': b'Euler angles, and quaternions. Also includes an Arcball control object and\n'}
+[0.885518] (ros2_aruco) StdoutLine: {'line': b'functions to decompose transformation matrices.\n'}
+[0.885567] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.885615] (ros2_aruco) StdoutLine: {'line': b':Authors:\n'}
+[0.885666] (ros2_aruco) StdoutLine: {'line': b'  `Christoph Gohlke <http://www.lfd.uci.edu/~gohlke/>`__,\n'}
+[0.885714] (ros2_aruco) StdoutLine: {'line': b'  Laboratory for Fluorescence Dynamics, University of California, Irvine\n'}
+[0.885763] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.885814] (ros2_aruco) StdoutLine: {'line': b':Version: 20090418\n'}
+[0.885862] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.885909] (ros2_aruco) StdoutLine: {'line': b'Requirements\n'}
+[0.886142] (ros2_aruco) StdoutLine: {'line': b'------------\n'}
+[0.886194] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.886239] (ros2_aruco) StdoutLine: {'line': b'* `Python 2.6 <http://www.python.org>`__\n'}
+[0.886283] (ros2_aruco) StdoutLine: {'line': b'* `Numpy 1.3 <http://numpy.scipy.org>`__\n'}
+[0.886325] (ros2_aruco) StdoutLine: {'line': b'* `transformations.c 20090418 <http://www.lfd.uci.edu/~gohlke/>`__\n'}
+[0.886367] (ros2_aruco) StdoutLine: {'line': b'  (optional implementation of some functions in C)\n'}
+[0.886411] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.886454] (ros2_aruco) StdoutLine: {'line': b'Notes\n'}
+[0.886496] (ros2_aruco) StdoutLine: {'line': b'-----\n'}
+[0.886535] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.886576] (ros2_aruco) StdoutLine: {'line': b'Matrices (M) can be inverted using numpy.linalg.inv(M), concatenated using\n'}
+[0.886618] (ros2_aruco) StdoutLine: {'line': b'numpy.dot(M0, M1), or used to transform homogeneous coordinates (v) using\n'}
+[0.886660] (ros2_aruco) StdoutLine: {'line': b'numpy.dot(M, v) for shape (4, \\*) "point of arrays", respectively\n'}
+[0.886702] (ros2_aruco) StdoutLine: {'line': b'numpy.dot(v, M.T) for shape (\\*, 4) "array of points".\n'}
+[0.886743] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.886785] (ros2_aruco) StdoutLine: {'line': b'Calculations are carried out with numpy.float64 precision.\n'}
+[0.886827] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.886866] (ros2_aruco) StdoutLine: {'line': b'This Python implementation is not optimized for speed.\n'}
+[0.886906] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.886945] (ros2_aruco) StdoutLine: {'line': b'Vector, point, quaternion, and matrix function arguments are expected to be\n'}
+[0.886984] (ros2_aruco) StdoutLine: {'line': b'"array like", i.e. tuple, list, or numpy arrays.\n'}
+[0.887026] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.887066] (ros2_aruco) StdoutLine: {'line': b'Return types are numpy arrays unless specified otherwise.\n'}
+[0.887109] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.887156] (ros2_aruco) StdoutLine: {'line': b'Angles are in radians unless specified otherwise.\n'}
+[0.887195] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.887234] (ros2_aruco) StdoutLine: {'line': b'Quaternions ix+jy+kz+w are represented as [x, y, z, w].\n'}
+[0.887275] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.887314] (ros2_aruco) StdoutLine: {'line': b'Use the transpose of transformation matrices for OpenGL glMultMatrixd().\n'}
+[0.887354] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.887393] (ros2_aruco) StdoutLine: {'line': b'A triple of Euler angles can be applied/interpreted in 24 ways, which can\n'}
+[0.887434] (ros2_aruco) StdoutLine: {'line': b'be specified using a 4 character string or encoded 4-tuple:\n'}
+[0.887475] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.887515] (ros2_aruco) StdoutLine: {'line': b"  *Axes 4-string*: e.g. 'sxyz' or 'ryxy'\n"}
+[0.887553] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.887593] (ros2_aruco) StdoutLine: {'line': b"  - first character : rotations are applied to 's'tatic or 'r'otating frame\n"}
+[0.887632] (ros2_aruco) StdoutLine: {'line': b"  - remaining characters : successive rotation axis 'x', 'y', or 'z'\n"}
+[0.887675] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.887715] (ros2_aruco) StdoutLine: {'line': b'  *Axes 4-tuple*: e.g. (0, 0, 0, 0) or (1, 1, 1, 1)\n'}
+[0.887762] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.887804] (ros2_aruco) StdoutLine: {'line': b"  - inner axis: code of axis ('x':0, 'y':1, 'z':2) of rightmost matrix.\n"}
+[0.887844] (ros2_aruco) StdoutLine: {'line': b"  - parity : even (0) if inner axis 'x' is followed by 'y', 'y' is followed\n"}
+[0.887883] (ros2_aruco) StdoutLine: {'line': b"    by 'z', or 'z' is followed by 'x'. Otherwise odd (1).\n"}
+[0.887923] (ros2_aruco) StdoutLine: {'line': b'  - repetition : first and last axis are same (1) or different (0).\n'}
+[0.887965] (ros2_aruco) StdoutLine: {'line': b'  - frame : rotations are applied to static (0) or rotating (1) frame.\n'}
+[0.888004] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.888042] (ros2_aruco) StdoutLine: {'line': b'References\n'}
+[0.888084] (ros2_aruco) StdoutLine: {'line': b'----------\n'}
+[0.888142] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.888201] (ros2_aruco) StdoutLine: {'line': b'(1)  Matrices and transformations. Ronald Goldman.\n'}
+[0.888264] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems I", pp 472-475. Morgan Kaufmann, 1990.\n'}
+[0.888331] (ros2_aruco) StdoutLine: {'line': b'(2)  More matrices and transformations: shear and pseudo-perspective.\n'}
+[0.888400] (ros2_aruco) StdoutLine: {'line': b'     Ronald Goldman. In "Graphics Gems II", pp 320-323. Morgan Kaufmann, 1991.\n'}
+[0.888455] (ros2_aruco) StdoutLine: {'line': b'(3)  Decomposing a matrix into simple transformations. Spencer Thomas.\n'}
+[0.888496] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems II", pp 320-323. Morgan Kaufmann, 1991.\n'}
+[0.888535] (ros2_aruco) StdoutLine: {'line': b'(4)  Recovering the data from the transformation matrix. Ronald Goldman.\n'}
+[0.888574] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems II", pp 324-331. Morgan Kaufmann, 1991.\n'}
+[0.888614] (ros2_aruco) StdoutLine: {'line': b'(5)  Euler angle conversion. Ken Shoemake.\n'}
+[0.888655] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems IV", pp 222-229. Morgan Kaufmann, 1994.\n'}
+[0.888695] (ros2_aruco) StdoutLine: {'line': b'(6)  Arcball rotation control. Ken Shoemake.\n'}
+[0.888734] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems IV", pp 175-192. Morgan Kaufmann, 1994.\n'}
+[0.888773] (ros2_aruco) StdoutLine: {'line': b'(7)  Representing attitude: Euler angles, unit quaternions, and rotation\n'}
+[0.888811] (ros2_aruco) StdoutLine: {'line': b'     vectors. James Diebel. 2006.\n'}
+[0.888850] (ros2_aruco) StdoutLine: {'line': b'(8)  A discussion of the solution for the best rotation to relate two sets\n'}
+[0.888888] (ros2_aruco) StdoutLine: {'line': b'     of vectors. W Kabsch. Acta Cryst. 1978. A34, 827-828.\n'}
+[0.888928] (ros2_aruco) StdoutLine: {'line': b'(9)  Closed-form solution of absolute orientation using unit quaternions.\n'}
+[0.888974] (ros2_aruco) StdoutLine: {'line': b'     BKP Horn. J Opt Soc Am A. 1987. 4(4), 629-642.\n'}
+[0.889013] (ros2_aruco) StdoutLine: {'line': b'(10) Quaternions. Ken Shoemake.\n'}
+[0.889052] (ros2_aruco) StdoutLine: {'line': b'     http://www.sfu.ca/~jwa3/cmpt461/files/quatut.pdf\n'}
+[0.889091] (ros2_aruco) StdoutLine: {'line': b'(11) From quaternion to matrix and back. JMP van Waveren. 2005.\n'}
+[0.889130] (ros2_aruco) StdoutLine: {'line': b'     http://www.intel.com/cd/ids/developer/asmo-na/eng/293748.htm\n'}
+[0.889170] (ros2_aruco) StdoutLine: {'line': b'(12) Uniform random rotations. Ken Shoemake.\n'}
+[0.889209] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems III", pp 124-132. Morgan Kaufmann, 1992.\n'}
+[0.889248] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.889289] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.889327] (ros2_aruco) StdoutLine: {'line': b'Examples\n'}
+[0.889366] (ros2_aruco) StdoutLine: {'line': b'--------\n'}
+[0.889405] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.889444] (ros2_aruco) StdoutLine: {'line': b'>>> alpha, beta, gamma = 0.123, -1.234, 2.345\n'}
+[0.889483] (ros2_aruco) StdoutLine: {'line': b'>>> origin, xaxis, yaxis, zaxis = (0, 0, 0), (1, 0, 0), (0, 1, 0), (0, 0, 1)\n'}
+[0.889520] (ros2_aruco) StdoutLine: {'line': b'>>> I = identity_matrix()\n'}
+[0.889560] (ros2_aruco) StdoutLine: {'line': b'>>> Rx = rotation_matrix(alpha, xaxis)\n'}
+[0.889604] (ros2_aruco) StdoutLine: {'line': b'>>> Ry = rotation_matrix(beta, yaxis)\n'}
+[0.889645] (ros2_aruco) StdoutLine: {'line': b'>>> Rz = rotation_matrix(gamma, zaxis)\n'}
+[0.889683] (ros2_aruco) StdoutLine: {'line': b'>>> R = concatenate_matrices(Rx, Ry, Rz)\n'}
+[0.889721] (ros2_aruco) StdoutLine: {'line': b">>> euler = euler_from_matrix(R, 'rxyz')\n"}
+[0.889761] (ros2_aruco) StdoutLine: {'line': b'>>> numpy.allclose([alpha, beta, gamma], euler)\n'}
+[0.889799] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.889839] (ros2_aruco) StdoutLine: {'line': b">>> Re = euler_matrix(alpha, beta, gamma, 'rxyz')\n"}
+[0.889879] (ros2_aruco) StdoutLine: {'line': b'>>> is_same_transform(R, Re)\n'}
+[0.889918] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.889957] (ros2_aruco) StdoutLine: {'line': b">>> al, be, ga = euler_from_matrix(Re, 'rxyz')\n"}
+[0.889996] (ros2_aruco) StdoutLine: {'line': b">>> is_same_transform(Re, euler_matrix(al, be, ga, 'rxyz'))\n"}
+[0.890037] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.890077] (ros2_aruco) StdoutLine: {'line': b'>>> qx = quaternion_about_axis(alpha, xaxis)\n'}
+[0.890136] (ros2_aruco) StdoutLine: {'line': b'>>> qy = quaternion_about_axis(beta, yaxis)\n'}
+[0.890176] (ros2_aruco) StdoutLine: {'line': b'>>> qz = quaternion_about_axis(gamma, zaxis)\n'}
+[0.890215] (ros2_aruco) StdoutLine: {'line': b'>>> q = quaternion_multiply(qx, qy)\n'}
+[0.890256] (ros2_aruco) StdoutLine: {'line': b'>>> q = quaternion_multiply(q, qz)\n'}
+[0.890296] (ros2_aruco) StdoutLine: {'line': b'>>> Rq = quaternion_matrix(q)\n'}
+[0.890338] (ros2_aruco) StdoutLine: {'line': b'>>> is_same_transform(R, Rq)\n'}
+[0.890379] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.890419] (ros2_aruco) StdoutLine: {'line': b'>>> S = scale_matrix(1.23, origin)\n'}
+[0.890457] (ros2_aruco) StdoutLine: {'line': b'>>> T = translation_matrix((1, 2, 3))\n'}
+[0.890496] (ros2_aruco) StdoutLine: {'line': b'>>> Z = shear_matrix(beta, xaxis, origin, zaxis)\n'}
+[0.890537] (ros2_aruco) StdoutLine: {'line': b'>>> R = random_rotation_matrix(numpy.random.rand(3))\n'}
+[0.890577] (ros2_aruco) StdoutLine: {'line': b'>>> M = concatenate_matrices(T, R, Z, S)\n'}
+[0.890616] (ros2_aruco) StdoutLine: {'line': b'>>> scale, shear, angles, trans, persp = decompose_matrix(M)\n'}
+[0.890655] (ros2_aruco) StdoutLine: {'line': b'>>> numpy.allclose(scale, 1.23)\n'}
+[0.890695] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.890735] (ros2_aruco) StdoutLine: {'line': b'>>> numpy.allclose(trans, (1, 2, 3))\n'}
+[0.890773] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.890812] (ros2_aruco) StdoutLine: {'line': b'>>> numpy.allclose(shear, (0, math.tan(beta), 0))\n'}
+[0.890858] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.890899] (ros2_aruco) StdoutLine: {'line': b">>> is_same_transform(R, euler_matrix(axes='sxyz', *angles))\n"}
+[0.890939] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.890975] (ros2_aruco) StdoutLine: {'line': b'>>> M1 = compose_matrix(scale, shear, angles, trans, persp)\n'}
+[0.891012] (ros2_aruco) StdoutLine: {'line': b'>>> is_same_transform(M, M1)\n'}
+[0.891052] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.891091] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.891130] (ros2_aruco) StdoutLine: {'line': b'"""\n'}
+[0.891170] (ros2_aruco) StdoutLine: {'line': b'                              ^\n'}
+[0.891209] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.891248] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/transformations.py:60:30: W605 invalid escape sequence '\\*'\n"}
+[0.891288] (ros2_aruco) StdoutLine: {'line': b'"""Homogeneous Transformation Matrices and Quaternions.\n'}
+[0.891328] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.891367] (ros2_aruco) StdoutLine: {'line': b'A library for calculating 4x4 matrices for translating, rotating, reflecting,\n'}
+[0.891406] (ros2_aruco) StdoutLine: {'line': b'scaling, shearing, projecting, orthogonalizing, and superimposing arrays of\n'}
+[0.891446] (ros2_aruco) StdoutLine: {'line': b'3D homogeneous coordinates as well as for converting between rotation matrices,\n'}
+[0.891484] (ros2_aruco) StdoutLine: {'line': b'Euler angles, and quaternions. Also includes an Arcball control object and\n'}
+[0.891523] (ros2_aruco) StdoutLine: {'line': b'functions to decompose transformation matrices.\n'}
+[0.891561] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.891600] (ros2_aruco) StdoutLine: {'line': b':Authors:\n'}
+[0.891639] (ros2_aruco) StdoutLine: {'line': b'  `Christoph Gohlke <http://www.lfd.uci.edu/~gohlke/>`__,\n'}
+[0.891678] (ros2_aruco) StdoutLine: {'line': b'  Laboratory for Fluorescence Dynamics, University of California, Irvine\n'}
+[0.891716] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.891756] (ros2_aruco) StdoutLine: {'line': b':Version: 20090418\n'}
+[0.891795] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.891833] (ros2_aruco) StdoutLine: {'line': b'Requirements\n'}
+[0.891869] (ros2_aruco) StdoutLine: {'line': b'------------\n'}
+[0.891908] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.891946] (ros2_aruco) StdoutLine: {'line': b'* `Python 2.6 <http://www.python.org>`__\n'}
+[0.891985] (ros2_aruco) StdoutLine: {'line': b'* `Numpy 1.3 <http://numpy.scipy.org>`__\n'}
+[0.892024] (ros2_aruco) StdoutLine: {'line': b'* `transformations.c 20090418 <http://www.lfd.uci.edu/~gohlke/>`__\n'}
+[0.892069] (ros2_aruco) StdoutLine: {'line': b'  (optional implementation of some functions in C)\n'}
+[0.892109] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.892148] (ros2_aruco) StdoutLine: {'line': b'Notes\n'}
+[0.892186] (ros2_aruco) StdoutLine: {'line': b'-----\n'}
+[0.892225] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.892264] (ros2_aruco) StdoutLine: {'line': b'Matrices (M) can be inverted using numpy.linalg.inv(M), concatenated using\n'}
+[0.892304] (ros2_aruco) StdoutLine: {'line': b'numpy.dot(M0, M1), or used to transform homogeneous coordinates (v) using\n'}
+[0.892343] (ros2_aruco) StdoutLine: {'line': b'numpy.dot(M, v) for shape (4, \\*) "point of arrays", respectively\n'}
+[0.892382] (ros2_aruco) StdoutLine: {'line': b'numpy.dot(v, M.T) for shape (\\*, 4) "array of points".\n'}
+[0.892421] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.892460] (ros2_aruco) StdoutLine: {'line': b'Calculations are carried out with numpy.float64 precision.\n'}
+[0.892499] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.892538] (ros2_aruco) StdoutLine: {'line': b'This Python implementation is not optimized for speed.\n'}
+[0.892578] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.892617] (ros2_aruco) StdoutLine: {'line': b'Vector, point, quaternion, and matrix function arguments are expected to be\n'}
+[0.892656] (ros2_aruco) StdoutLine: {'line': b'"array like", i.e. tuple, list, or numpy arrays.\n'}
+[0.892695] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.892733] (ros2_aruco) StdoutLine: {'line': b'Return types are numpy arrays unless specified otherwise.\n'}
+[0.892781] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.892821] (ros2_aruco) StdoutLine: {'line': b'Angles are in radians unless specified otherwise.\n'}
+[0.892860] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.892899] (ros2_aruco) StdoutLine: {'line': b'Quaternions ix+jy+kz+w are represented as [x, y, z, w].\n'}
+[0.892939] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.892978] (ros2_aruco) StdoutLine: {'line': b'Use the transpose of transformation matrices for OpenGL glMultMatrixd().\n'}
+[0.893018] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.893056] (ros2_aruco) StdoutLine: {'line': b'A triple of Euler angles can be applied/interpreted in 24 ways, which can\n'}
+[0.893097] (ros2_aruco) StdoutLine: {'line': b'be specified using a 4 character string or encoded 4-tuple:\n'}
+[0.893136] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.893175] (ros2_aruco) StdoutLine: {'line': b"  *Axes 4-string*: e.g. 'sxyz' or 'ryxy'\n"}
+[0.893214] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.893253] (ros2_aruco) StdoutLine: {'line': b"  - first character : rotations are applied to 's'tatic or 'r'otating frame\n"}
+[0.893292] (ros2_aruco) StdoutLine: {'line': b"  - remaining characters : successive rotation axis 'x', 'y', or 'z'\n"}
+[0.893335] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.893374] (ros2_aruco) StdoutLine: {'line': b'  *Axes 4-tuple*: e.g. (0, 0, 0, 0) or (1, 1, 1, 1)\n'}
+[0.893413] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.893450] (ros2_aruco) StdoutLine: {'line': b"  - inner axis: code of axis ('x':0, 'y':1, 'z':2) of rightmost matrix.\n"}
+[0.893489] (ros2_aruco) StdoutLine: {'line': b"  - parity : even (0) if inner axis 'x' is followed by 'y', 'y' is followed\n"}
+[0.893528] (ros2_aruco) StdoutLine: {'line': b"    by 'z', or 'z' is followed by 'x'. Otherwise odd (1).\n"}
+[0.893566] (ros2_aruco) StdoutLine: {'line': b'  - repetition : first and last axis are same (1) or different (0).\n'}
+[0.893604] (ros2_aruco) StdoutLine: {'line': b'  - frame : rotations are applied to static (0) or rotating (1) frame.\n'}
+[0.893641] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.893679] (ros2_aruco) StdoutLine: {'line': b'References\n'}
+[0.893718] (ros2_aruco) StdoutLine: {'line': b'----------\n'}
+[0.893757] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.893796] (ros2_aruco) StdoutLine: {'line': b'(1)  Matrices and transformations. Ronald Goldman.\n'}
+[0.893834] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems I", pp 472-475. Morgan Kaufmann, 1990.\n'}
+[0.893872] (ros2_aruco) StdoutLine: {'line': b'(2)  More matrices and transformations: shear and pseudo-perspective.\n'}
+[0.893910] (ros2_aruco) StdoutLine: {'line': b'     Ronald Goldman. In "Graphics Gems II", pp 320-323. Morgan Kaufmann, 1991.\n'}
+[0.893948] (ros2_aruco) StdoutLine: {'line': b'(3)  Decomposing a matrix into simple transformations. Spencer Thomas.\n'}
+[0.893987] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems II", pp 320-323. Morgan Kaufmann, 1991.\n'}
+[0.894025] (ros2_aruco) StdoutLine: {'line': b'(4)  Recovering the data from the transformation matrix. Ronald Goldman.\n'}
+[0.894064] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems II", pp 324-331. Morgan Kaufmann, 1991.\n'}
+[0.894123] (ros2_aruco) StdoutLine: {'line': b'(5)  Euler angle conversion. Ken Shoemake.\n'}
+[0.894163] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems IV", pp 222-229. Morgan Kaufmann, 1994.\n'}
+[0.894202] (ros2_aruco) StdoutLine: {'line': b'(6)  Arcball rotation control. Ken Shoemake.\n'}
+[0.894242] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems IV", pp 175-192. Morgan Kaufmann, 1994.\n'}
+[0.894281] (ros2_aruco) StdoutLine: {'line': b'(7)  Representing attitude: Euler angles, unit quaternions, and rotation\n'}
+[0.894319] (ros2_aruco) StdoutLine: {'line': b'     vectors. James Diebel. 2006.\n'}
+[0.894358] (ros2_aruco) StdoutLine: {'line': b'(8)  A discussion of the solution for the best rotation to relate two sets\n'}
+[0.894397] (ros2_aruco) StdoutLine: {'line': b'     of vectors. W Kabsch. Acta Cryst. 1978. A34, 827-828.\n'}
+[0.894439] (ros2_aruco) StdoutLine: {'line': b'(9)  Closed-form solution of absolute orientation using unit quaternions.\n'}
+[0.894478] (ros2_aruco) StdoutLine: {'line': b'     BKP Horn. J Opt Soc Am A. 1987. 4(4), 629-642.\n'}
+[0.894517] (ros2_aruco) StdoutLine: {'line': b'(10) Quaternions. Ken Shoemake.\n'}
+[0.894556] (ros2_aruco) StdoutLine: {'line': b'     http://www.sfu.ca/~jwa3/cmpt461/files/quatut.pdf\n'}
+[0.894596] (ros2_aruco) StdoutLine: {'line': b'(11) From quaternion to matrix and back. JMP van Waveren. 2005.\n'}
+[0.894635] (ros2_aruco) StdoutLine: {'line': b'     http://www.intel.com/cd/ids/developer/asmo-na/eng/293748.htm\n'}
+[0.894674] (ros2_aruco) StdoutLine: {'line': b'(12) Uniform random rotations. Ken Shoemake.\n'}
+[0.894713] (ros2_aruco) StdoutLine: {'line': b'     In "Graphics Gems III", pp 124-132. Morgan Kaufmann, 1992.\n'}
+[0.894752] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.894790] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.894829] (ros2_aruco) StdoutLine: {'line': b'Examples\n'}
+[0.894868] (ros2_aruco) StdoutLine: {'line': b'--------\n'}
+[0.894906] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.894945] (ros2_aruco) StdoutLine: {'line': b'>>> alpha, beta, gamma = 0.123, -1.234, 2.345\n'}
+[0.894985] (ros2_aruco) StdoutLine: {'line': b'>>> origin, xaxis, yaxis, zaxis = (0, 0, 0), (1, 0, 0), (0, 1, 0), (0, 0, 1)\n'}
+[0.895024] (ros2_aruco) StdoutLine: {'line': b'>>> I = identity_matrix()\n'}
+[0.895063] (ros2_aruco) StdoutLine: {'line': b'>>> Rx = rotation_matrix(alpha, xaxis)\n'}
+[0.895102] (ros2_aruco) StdoutLine: {'line': b'>>> Ry = rotation_matrix(beta, yaxis)\n'}
+[0.895141] (ros2_aruco) StdoutLine: {'line': b'>>> Rz = rotation_matrix(gamma, zaxis)\n'}
+[0.895180] (ros2_aruco) StdoutLine: {'line': b'>>> R = concatenate_matrices(Rx, Ry, Rz)\n'}
+[0.895219] (ros2_aruco) StdoutLine: {'line': b">>> euler = euler_from_matrix(R, 'rxyz')\n"}
+[0.895258] (ros2_aruco) StdoutLine: {'line': b'>>> numpy.allclose([alpha, beta, gamma], euler)\n'}
+[0.895297] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.895336] (ros2_aruco) StdoutLine: {'line': b">>> Re = euler_matrix(alpha, beta, gamma, 'rxyz')\n"}
+[0.895374] (ros2_aruco) StdoutLine: {'line': b'>>> is_same_transform(R, Re)\n'}
+[0.895413] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.895452] (ros2_aruco) StdoutLine: {'line': b">>> al, be, ga = euler_from_matrix(Re, 'rxyz')\n"}
+[0.895491] (ros2_aruco) StdoutLine: {'line': b">>> is_same_transform(Re, euler_matrix(al, be, ga, 'rxyz'))\n"}
+[0.895529] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.895568] (ros2_aruco) StdoutLine: {'line': b'>>> qx = quaternion_about_axis(alpha, xaxis)\n'}
+[0.895607] (ros2_aruco) StdoutLine: {'line': b'>>> qy = quaternion_about_axis(beta, yaxis)\n'}
+[0.895646] (ros2_aruco) StdoutLine: {'line': b'>>> qz = quaternion_about_axis(gamma, zaxis)\n'}
+[0.895684] (ros2_aruco) StdoutLine: {'line': b'>>> q = quaternion_multiply(qx, qy)\n'}
+[0.895723] (ros2_aruco) StdoutLine: {'line': b'>>> q = quaternion_multiply(q, qz)\n'}
+[0.895762] (ros2_aruco) StdoutLine: {'line': b'>>> Rq = quaternion_matrix(q)\n'}
+[0.895801] (ros2_aruco) StdoutLine: {'line': b'>>> is_same_transform(R, Rq)\n'}
+[0.895839] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.895879] (ros2_aruco) StdoutLine: {'line': b'>>> S = scale_matrix(1.23, origin)\n'}
+[0.895918] (ros2_aruco) StdoutLine: {'line': b'>>> T = translation_matrix((1, 2, 3))\n'}
+[0.895957] (ros2_aruco) StdoutLine: {'line': b'>>> Z = shear_matrix(beta, xaxis, origin, zaxis)\n'}
+[0.895996] (ros2_aruco) StdoutLine: {'line': b'>>> R = random_rotation_matrix(numpy.random.rand(3))\n'}
+[0.896040] (ros2_aruco) StdoutLine: {'line': b'>>> M = concatenate_matrices(T, R, Z, S)\n'}
+[0.896079] (ros2_aruco) StdoutLine: {'line': b'>>> scale, shear, angles, trans, persp = decompose_matrix(M)\n'}
+[0.896118] (ros2_aruco) StdoutLine: {'line': b'>>> numpy.allclose(scale, 1.23)\n'}
+[0.896158] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.896197] (ros2_aruco) StdoutLine: {'line': b'>>> numpy.allclose(trans, (1, 2, 3))\n'}
+[0.896236] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.896279] (ros2_aruco) StdoutLine: {'line': b'>>> numpy.allclose(shear, (0, math.tan(beta), 0))\n'}
+[0.896318] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.896358] (ros2_aruco) StdoutLine: {'line': b">>> is_same_transform(R, euler_matrix(axes='sxyz', *angles))\n"}
+[0.896400] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.896440] (ros2_aruco) StdoutLine: {'line': b'>>> M1 = compose_matrix(scale, shear, angles, trans, persp)\n'}
+[0.896481] (ros2_aruco) StdoutLine: {'line': b'>>> is_same_transform(M, M1)\n'}
+[0.896520] (ros2_aruco) StdoutLine: {'line': b'True\n'}
+[0.896560] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.896603] (ros2_aruco) StdoutLine: {'line': b'"""\n'}
+[0.896643] (ros2_aruco) StdoutLine: {'line': b'                             ^\n'}
+[0.896682] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.896721] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/transformations.py:680:9: E741 ambiguous variable name 'l'\n"}
+[0.896760] (ros2_aruco) StdoutLine: {'line': b'        l = vector_norm(n)\n'}
+[0.896800] (ros2_aruco) StdoutLine: {'line': b'        ^\n'}
+[0.896839] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.896878] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/transformations.py:778:9: E265 block comment should start with '# '\n"}
+[0.896918] (ros2_aruco) StdoutLine: {'line': b'        #angles[0] = math.atan2(row[1, 0], row[1, 1])\n'}
+[0.896957] (ros2_aruco) StdoutLine: {'line': b'        ^\n'}
+[0.896996] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.897035] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/transformations.py:869:29: W605 invalid escape sequence '\\*'\n"}
+[0.897074] (ros2_aruco) StdoutLine: {'line': b'    """Return matrix to transform given vector set into second vector set.\n'}
+[0.897114] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.897153] (ros2_aruco) StdoutLine: {'line': b'    v0 and v1 are shape (3, \\*) or (4, \\*) arrays of at least 3 vectors.\n'}
+[0.897192] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.897231] (ros2_aruco) StdoutLine: {'line': b'    If usesvd is True, the weighted sum of squared deviations (RMSD) is\n'}
+[0.897271] (ros2_aruco) StdoutLine: {'line': b'    minimized according to the algorithm by W. Kabsch [8]. Otherwise the\n'}
+[0.897310] (ros2_aruco) StdoutLine: {'line': b'    quaternion based algorithm by B. Horn [9] is used (slower when using\n'}
+[0.897349] (ros2_aruco) StdoutLine: {'line': b'    this Python implementation).\n'}
+[0.897388] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.897427] (ros2_aruco) StdoutLine: {'line': b'    The returned matrix performs rotation, translation and uniform scaling\n'}
+[0.897465] (ros2_aruco) StdoutLine: {'line': b'    (if specified).\n'}
+[0.897504] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.897544] (ros2_aruco) StdoutLine: {'line': b'    >>> v0 = numpy.random.rand(3, 10)\n'}
+[0.897583] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v0)\n'}
+[0.897622] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(M, numpy.identity(4))\n'}
+[0.897661] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.897697] (ros2_aruco) StdoutLine: {'line': b'    >>> R = random_rotation_matrix(numpy.random.random(3))\n'}
+[0.897736] (ros2_aruco) StdoutLine: {'line': b'    >>> v0 = ((1,0,0), (0,1,0), (0,0,1), (1,1,1))\n'}
+[0.897774] (ros2_aruco) StdoutLine: {'line': b'    >>> v1 = numpy.dot(R, v0)\n'}
+[0.897812] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v1)\n'}
+[0.897849] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(v1, numpy.dot(M, v0))\n'}
+[0.897887] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.897925] (ros2_aruco) StdoutLine: {'line': b'    >>> v0 = (numpy.random.rand(4, 100) - 0.5) * 20.0\n'}
+[0.897964] (ros2_aruco) StdoutLine: {'line': b'    >>> v0[3] = 1.0\n'}
+[0.898003] (ros2_aruco) StdoutLine: {'line': b'    >>> v1 = numpy.dot(R, v0)\n'}
+[0.898042] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v1)\n'}
+[0.898094] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(v1, numpy.dot(M, v0))\n'}
+[0.898141] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.898186] (ros2_aruco) StdoutLine: {'line': b'    >>> S = scale_matrix(random.random())\n'}
+[0.898226] (ros2_aruco) StdoutLine: {'line': b'    >>> T = translation_matrix(numpy.random.random(3)-0.5)\n'}
+[0.898266] (ros2_aruco) StdoutLine: {'line': b'    >>> M = concatenate_matrices(T, R, S)\n'}
+[0.898304] (ros2_aruco) StdoutLine: {'line': b'    >>> v1 = numpy.dot(M, v0)\n'}
+[0.898343] (ros2_aruco) StdoutLine: {'line': b'    >>> v0[:3] += numpy.random.normal(0.0, 1e-9, 300).reshape(3, -1)\n'}
+[0.898382] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v1, scaling=True)\n'}
+[0.898421] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(v1, numpy.dot(M, v0))\n'}
+[0.898461] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.898500] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v1, scaling=True, usesvd=False)\n'}
+[0.898539] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(v1, numpy.dot(M, v0))\n'}
+[0.898578] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.898617] (ros2_aruco) StdoutLine: {'line': b'    >>> v = numpy.empty((4, 100, 3), dtype=numpy.float64)\n'}
+[0.898656] (ros2_aruco) StdoutLine: {'line': b'    >>> v[:, :, 0] = v0\n'}
+[0.898694] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v1, scaling=True, usesvd=False)\n'}
+[0.898733] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(v1, numpy.dot(M, v[:, :, 0]))\n'}
+[0.898773] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.898812] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.898851] (ros2_aruco) StdoutLine: {'line': b'    """\n'}
+[0.898890] (ros2_aruco) StdoutLine: {'line': b'                            ^\n'}
+[0.898930] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.898969] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/transformations.py:869:40: W605 invalid escape sequence '\\*'\n"}
+[0.899008] (ros2_aruco) StdoutLine: {'line': b'    """Return matrix to transform given vector set into second vector set.\n'}
+[0.899048] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.899088] (ros2_aruco) StdoutLine: {'line': b'    v0 and v1 are shape (3, \\*) or (4, \\*) arrays of at least 3 vectors.\n'}
+[0.899127] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.899166] (ros2_aruco) StdoutLine: {'line': b'    If usesvd is True, the weighted sum of squared deviations (RMSD) is\n'}
+[0.899206] (ros2_aruco) StdoutLine: {'line': b'    minimized according to the algorithm by W. Kabsch [8]. Otherwise the\n'}
+[0.899245] (ros2_aruco) StdoutLine: {'line': b'    quaternion based algorithm by B. Horn [9] is used (slower when using\n'}
+[0.899284] (ros2_aruco) StdoutLine: {'line': b'    this Python implementation).\n'}
+[0.899323] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.899362] (ros2_aruco) StdoutLine: {'line': b'    The returned matrix performs rotation, translation and uniform scaling\n'}
+[0.899402] (ros2_aruco) StdoutLine: {'line': b'    (if specified).\n'}
+[0.899441] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.899480] (ros2_aruco) StdoutLine: {'line': b'    >>> v0 = numpy.random.rand(3, 10)\n'}
+[0.899519] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v0)\n'}
+[0.899558] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(M, numpy.identity(4))\n'}
+[0.899597] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.899636] (ros2_aruco) StdoutLine: {'line': b'    >>> R = random_rotation_matrix(numpy.random.random(3))\n'}
+[0.899675] (ros2_aruco) StdoutLine: {'line': b'    >>> v0 = ((1,0,0), (0,1,0), (0,0,1), (1,1,1))\n'}
+[0.899714] (ros2_aruco) StdoutLine: {'line': b'    >>> v1 = numpy.dot(R, v0)\n'}
+[0.899754] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v1)\n'}
+[0.899793] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(v1, numpy.dot(M, v0))\n'}
+[0.899832] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.899871] (ros2_aruco) StdoutLine: {'line': b'    >>> v0 = (numpy.random.rand(4, 100) - 0.5) * 20.0\n'}
+[0.899910] (ros2_aruco) StdoutLine: {'line': b'    >>> v0[3] = 1.0\n'}
+[0.899949] (ros2_aruco) StdoutLine: {'line': b'    >>> v1 = numpy.dot(R, v0)\n'}
+[0.899991] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v1)\n'}
+[0.900031] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(v1, numpy.dot(M, v0))\n'}
+[0.900073] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.900113] (ros2_aruco) StdoutLine: {'line': b'    >>> S = scale_matrix(random.random())\n'}
+[0.900170] (ros2_aruco) StdoutLine: {'line': b'    >>> T = translation_matrix(numpy.random.random(3)-0.5)\n'}
+[0.900209] (ros2_aruco) StdoutLine: {'line': b'    >>> M = concatenate_matrices(T, R, S)\n'}
+[0.900248] (ros2_aruco) StdoutLine: {'line': b'    >>> v1 = numpy.dot(M, v0)\n'}
+[0.900287] (ros2_aruco) StdoutLine: {'line': b'    >>> v0[:3] += numpy.random.normal(0.0, 1e-9, 300).reshape(3, -1)\n'}
+[0.900326] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v1, scaling=True)\n'}
+[0.900364] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(v1, numpy.dot(M, v0))\n'}
+[0.900403] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.900442] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v1, scaling=True, usesvd=False)\n'}
+[0.900486] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(v1, numpy.dot(M, v0))\n'}
+[0.900524] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.900562] (ros2_aruco) StdoutLine: {'line': b'    >>> v = numpy.empty((4, 100, 3), dtype=numpy.float64)\n'}
+[0.900600] (ros2_aruco) StdoutLine: {'line': b'    >>> v[:, :, 0] = v0\n'}
+[0.900640] (ros2_aruco) StdoutLine: {'line': b'    >>> M = superimposition_matrix(v0, v1, scaling=True, usesvd=False)\n'}
+[0.900678] (ros2_aruco) StdoutLine: {'line': b'    >>> numpy.allclose(v1, numpy.dot(M, v[:, :, 0]))\n'}
+[0.900717] (ros2_aruco) StdoutLine: {'line': b'    True\n'}
+[0.900752] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.900791] (ros2_aruco) StdoutLine: {'line': b'    """\n'}
+[0.900829] (ros2_aruco) StdoutLine: {'line': b'                                       ^\n'}
+[0.900869] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.900908] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/transformations.py:1429:37: E712 comparison to True should be 'if cond is True:' or 'if cond:'\n"}
+[0.900948] (ros2_aruco) StdoutLine: {'line': b'        self._constrain = constrain == True\n'}
+[0.900987] (ros2_aruco) StdoutLine: {'line': b'                                    ^\n'}
+[0.901026] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.901064] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/aruco_node.py:66:36: E721 do not compare types, use 'isinstance()'\n"}
+[0.901104] (ros2_aruco) StdoutLine: {'line': b'            if type(dictionary_id) != type(cv2.aruco.DICT_5X5_100):\n'}
+[0.901145] (ros2_aruco) StdoutLine: {'line': b'                                   ^\n'}
+[0.901184] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.901223] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/aruco_node.py:118:1: W293 blank line contains whitespace\n'}
+[0.901261] (ros2_aruco) StdoutLine: {'line': b'            \n'}
+[0.901300] (ros2_aruco) StdoutLine: {'line': b'^\n'}
+[0.901339] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.901378] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/aruco_node.py:119:1: W293 blank line contains whitespace\n'}
+[0.901417] (ros2_aruco) StdoutLine: {'line': b'            \n'}
+[0.901456] (ros2_aruco) StdoutLine: {'line': b'^\n'}
+[0.901495] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.901534] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/aruco_node.py:120:9: E303 too many blank lines (2)\n'}
+[0.901573] (ros2_aruco) StdoutLine: {'line': b'        markers.header.stamp = img_msg.header.stamp\n'}
+[0.901612] (ros2_aruco) StdoutLine: {'line': b'        ^\n'}
+[0.901651] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.901690] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/aruco_node.py:130:100: E501 line too long (107 > 99 characters)\n'}
+[0.901729] (ros2_aruco) StdoutLine: {'line': b'                                                                      self.marker_size, self.intrinsic_mat,\n'}
+[0.901768] (ros2_aruco) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[0.901814] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.901853] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/aruco_node.py:134:100: E501 line too long (104 > 99 characters)\n'}
+[0.901892] (ros2_aruco) StdoutLine: {'line': b'                                                                   self.marker_size, self.intrinsic_mat,\n'}
+[0.901934] (ros2_aruco) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[0.901988] (ros2_aruco) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.902030] (ros2_aruco) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.902071] (ros2_aruco) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[0.902129] (ros2_aruco) StderrLine: {'line': b'\n'}
+[0.902170] (ros2_aruco) StderrLine: {'line': b'test/test_pep257.py: 25 warnings\n'}
+[0.902210] (ros2_aruco) StderrLine: {'line': b"  Warning: invalid escape sequence '\\*'\n"}
+[0.902251] (ros2_aruco) StderrLine: {'line': b'\n'}
+[0.902290] (ros2_aruco) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[0.902329] (ros2_aruco) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[0.902371] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.902411] (ros2_aruco) StdoutLine: {'line': b"./launch/usb_camera_node.launch.py:6:1: F401 'launch.LaunchContext' imported but unused\n"}
+[0.902451] (ros2_aruco) StdoutLine: {'line': b'from launch import LaunchContext\n'}
+[0.902491] (ros2_aruco) StdoutLine: {'line': b'^\n'}
+[0.902531] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.902570] (ros2_aruco) StdoutLine: {'line': b"./launch/usb_camera_node.launch.py:7:1: F401 'launch.actions.SetEnvironmentVariable' imported but unused\n"}
+[0.902610] (ros2_aruco) StdoutLine: {'line': b'from launch.actions import SetEnvironmentVariable\n'}
+[0.902649] (ros2_aruco) StdoutLine: {'line': b'^\n'}
+[0.902688] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.902727] (-) TimerEvent: {}
+[0.902810] (ros2_aruco) StdoutLine: {'line': b'./launch/usb_camera_node.launch.py:11:1: E303 too many blank lines (3)\n'}
+[0.902863] (ros2_aruco) StdoutLine: {'line': b'def generate_launch_description():\n'}
+[0.902906] (ros2_aruco) StdoutLine: {'line': b'^\n'}
+[0.902947] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.902987] (ros2_aruco) StdoutLine: {'line': b'./launch/usb_camera_node.launch.py:12:19: W291 trailing whitespace\n'}
+[0.903027] (ros2_aruco) StdoutLine: {'line': b'    ns = "/camera" \n'}
+[0.903067] (ros2_aruco) StdoutLine: {'line': b'                  ^\n'}
+[0.903107] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.903147] (ros2_aruco) StdoutLine: {'line': b'./launch/usb_camera_node.launch.py:19:100: E501 line too long (107 > 99 characters)\n'}
+[0.903187] (ros2_aruco) StdoutLine: {'line': b'            parameters=[{"camera_calibration_file": "file:///home/spragunr/.ros/camera_info/camera.yaml"}],\n'}
+[0.903228] (ros2_aruco) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[0.903267] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.903306] (ros2_aruco) StdoutLine: {'line': b"./launch/usb_camera_node.launch.py:27:27: E231 missing whitespace after ','\n"}
+[0.903346] (ros2_aruco) StdoutLine: {'line': b'            arguments=["0","0","0","0","0","0","world","camera"],\n'}
+[0.903386] (ros2_aruco) StdoutLine: {'line': b'                          ^\n'}
+[0.903425] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.903463] (ros2_aruco) StdoutLine: {'line': b"./launch/usb_camera_node.launch.py:27:31: E231 missing whitespace after ','\n"}
+[0.903508] (ros2_aruco) StdoutLine: {'line': b'            arguments=["0","0","0","0","0","0","world","camera"],\n'}
+[0.903548] (ros2_aruco) StdoutLine: {'line': b'                              ^\n'}
+[0.903588] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.903627] (ros2_aruco) StdoutLine: {'line': b"./launch/usb_camera_node.launch.py:27:35: E231 missing whitespace after ','\n"}
+[0.903674] (ros2_aruco) StdoutLine: {'line': b'            arguments=["0","0","0","0","0","0","world","camera"],\n'}
+[0.903714] (ros2_aruco) StdoutLine: {'line': b'                                  ^\n'}
+[0.903753] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.903792] (ros2_aruco) StdoutLine: {'line': b"./launch/usb_camera_node.launch.py:27:39: E231 missing whitespace after ','\n"}
+[0.903831] (ros2_aruco) StdoutLine: {'line': b'            arguments=["0","0","0","0","0","0","world","camera"],\n'}
+[0.903871] (ros2_aruco) StdoutLine: {'line': b'                                      ^\n'}
+[0.903909] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.903948] (ros2_aruco) StdoutLine: {'line': b"./launch/usb_camera_node.launch.py:27:43: E231 missing whitespace after ','\n"}
+[0.903987] (ros2_aruco) StdoutLine: {'line': b'            arguments=["0","0","0","0","0","0","world","camera"],\n'}
+[0.904026] (ros2_aruco) StdoutLine: {'line': b'                                          ^\n'}
+[0.904066] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.904104] (ros2_aruco) StdoutLine: {'line': b"./launch/usb_camera_node.launch.py:27:47: E231 missing whitespace after ','\n"}
+[0.904156] (ros2_aruco) StdoutLine: {'line': b'            arguments=["0","0","0","0","0","0","world","camera"],\n'}
+[0.904194] (ros2_aruco) StdoutLine: {'line': b'                                              ^\n'}
+[0.904232] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.904271] (ros2_aruco) StdoutLine: {'line': b"./launch/usb_camera_node.launch.py:27:55: E231 missing whitespace after ','\n"}
+[0.904309] (ros2_aruco) StdoutLine: {'line': b'            arguments=["0","0","0","0","0","0","world","camera"],\n'}
+[0.904348] (ros2_aruco) StdoutLine: {'line': b'                                                      ^\n'}
+[0.904387] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.904425] (ros2_aruco) StdoutLine: {'line': b'./launch/usb_camera_node.launch.py:32:1: W293 blank line contains whitespace\n'}
+[0.904470] (ros2_aruco) StdoutLine: {'line': b'    \n'}
+[0.904533] (ros2_aruco) StdoutLine: {'line': b'^\n'}
+[0.904599] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.904669] (ros2_aruco) StdoutLine: {'line': b"7     E231 missing whitespace after ','\n"}
+[0.904738] (ros2_aruco) StdoutLine: {'line': b"1     E265 block comment should start with '# '\n"}
+[0.904813] (ros2_aruco) StdoutLine: {'line': b'2     E303 too many blank lines (3)\n'}
+[0.904890] (ros2_aruco) StdoutLine: {'line': b'3     E501 line too long (107 > 99 characters)\n'}
+[0.904961] (ros2_aruco) StdoutLine: {'line': b"1     E712 comparison to True should be 'if cond is True:' or 'if cond:'\n"}
+[0.905009] (ros2_aruco) StdoutLine: {'line': b"1     E721 do not compare types, use 'isinstance()'\n"}
+[0.905052] (ros2_aruco) StdoutLine: {'line': b"1     E741 ambiguous variable name 'l'\n"}
+[0.905099] (ros2_aruco) StdoutLine: {'line': b"2     F401 'launch.LaunchContext' imported but unused\n"}
+[0.905153] (ros2_aruco) StdoutLine: {'line': b'1     W291 trailing whitespace\n'}
+[0.905194] (ros2_aruco) StdoutLine: {'line': b'3     W293 blank line contains whitespace\n'}
+[0.905234] (ros2_aruco) StdoutLine: {'line': b"4     W605 invalid escape sequence '\\*'\n"}
+[0.905274] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.905314] (ros2_aruco) StdoutLine: {'line': b'9 files checked\n'}
+[0.905354] (ros2_aruco) StdoutLine: {'line': b'26 errors\n'}
+[0.905394] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.905434] (ros2_aruco) StdoutLine: {'line': b"'E'-type errors: 16\n"}
+[0.905473] (ros2_aruco) StdoutLine: {'line': b"'F'-type errors: 2\n"}
+[0.905512] (ros2_aruco) StdoutLine: {'line': b"'W'-type errors: 8\n"}
+[0.905551] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.905591] (ros2_aruco) StdoutLine: {'line': b'Checked files:\n'}
+[0.905630] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[0.905669] (ros2_aruco) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.905709] (ros2_aruco) StdoutLine: {'line': b'* ./ros2_aruco/__init__.py\n'}
+[0.905747] (ros2_aruco) StdoutLine: {'line': b'* ./ros2_aruco/aruco_generate_marker.py\n'}
+[0.905791] (ros2_aruco) StdoutLine: {'line': b'* ./ros2_aruco/transformations.py\n'}
+[0.905831] (ros2_aruco) StdoutLine: {'line': b'* ./ros2_aruco/aruco_node.py\n'}
+[0.905869] (ros2_aruco) StdoutLine: {'line': b'* ./launch/usb_camera_node.launch.py\n'}
+[0.905909] (ros2_aruco) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.905948] (ros2_aruco) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.905987] (ros2_aruco) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.906025] (ros2_aruco) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[0.906065] (ros2_aruco) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.906134] (ros2_aruco) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_pep257 __________________________________\x1b[0m\n'}
+[0.906177] (ros2_aruco) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_pep257.py\x1b[0m:23: in test_pep257\n'}
+[0.906217] (ros2_aruco) StdoutLine: {'line': b"    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \x1b[33m'\x1b[39;49;00m\x1b[33mFound code style errors / warnings\x1b[39;49;00m\x1b[33m'\x1b[39;49;00m\n"}
+[0.906257] (ros2_aruco) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found code style errors / warnings\x1b[0m\n'}
+[0.906297] (ros2_aruco) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.906337] (ros2_aruco) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.906377] (ros2_aruco) StdoutLine: {'line': b'checking ./launch/usb_camera_node.launch.py\n'}
+[0.906417] (ros2_aruco) StdoutLine: {'line': b'checking ./ros2_aruco/__init__.py\n'}
+[0.906455] (ros2_aruco) StdoutLine: {'line': b'checking ./ros2_aruco/aruco_generate_marker.py\n'}
+[0.906494] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/aruco_generate_marker.py:15 in public class `CustomFormatter`: D204: 1 blank line required after class docstring (found 0)\n'}
+[0.906534] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/aruco_generate_marker.py:15 in public class `CustomFormatter`: D210: No whitespaces allowed surrounding docstring text\n'}
+[0.906574] (ros2_aruco) StdoutLine: {'line': b'checking ./ros2_aruco/aruco_node.py\n'}
+[0.906614] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/aruco_node.py:1 at module level: D407: Missing dashed underline after section ('Parameters')\n"}
+[0.906654] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/aruco_node.py:1 at module level: D406: Section name should end with a newline ('Parameters', not 'Parameters:')\n"}
+[0.906694] (ros2_aruco) StdoutLine: {'line': b'checking ./ros2_aruco/transformations.py\n'}
+[0.906733] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:32 at module level: D213: Multi-line docstring summary should start at the second line\n'}
+[0.906778] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:32 at module level: D301: Use r""" if any backslashes in a docstring\n'}
+[0.906819] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/transformations.py:32 at module level: D412: No blank lines allowed between a section header and its content ('Notes')\n"}
+[0.906859] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/transformations.py:32 at module level: D412: No blank lines allowed between a section header and its content ('References')\n"}
+[0.906899] (ros2_aruco) StdoutLine: {'line': b"./ros2_aruco/transformations.py:32 at module level: D412: No blank lines allowed between a section header and its content ('Examples')\n"}
+[0.906938] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:181 in public function `identity_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.906978] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:196 in public function `translation_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907022] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:209 in public function `translation_from_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907062] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:221 in public function `reflection_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907101] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:247 in public function `reflection_from_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907150] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:276 in public function `rotation_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907189] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:320 in public function `rotation_from_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907228] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:360 in public function `scale_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907268] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:397 in public function `scale_from_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907309] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:439 in public function `projection_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907349] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:500 in public function `projection_from_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907392] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:573 in public function `clip_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907431] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:625 in public function `shear_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907471] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:656 in public function `shear_from_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907510] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:701 in public function `decompose_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907549] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:787 in public function `compose_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907588] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:839 in public function `orthogonalization_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907627] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:867 in public function `superimposition_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907666] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:867 in public function `superimposition_matrix`: D301: Use r""" if any backslashes in a docstring\n'}
+[0.907705] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:969 in public function `euler_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907744] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1032 in public function `euler_from_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907783] (tb3) StdoutLine: {'line': b'1: [INFO] [1671078564.744324321] [basic_test]: DONE WITH CONSTRUCTOR!!\n'}
+[0.907831] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1090 in public function `euler_from_quaternion`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907872] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1101 in public function `quaternion_from_euler`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907918] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1158 in public function `quaternion_about_axis`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907958] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1175 in public function `quaternion_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.907997] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1197 in public function `quaternion_from_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908038] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1229 in public function `quaternion_multiply`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908078] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1246 in public function `quaternion_conjugate`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908117] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1259 in public function `quaternion_inverse`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908157] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1271 in public function `quaternion_slerp`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908197] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1312 in public function `random_quaternion`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908238] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1342 in public function `random_rotation_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908278] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1357 in public class `Arcball`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908318] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1381 in public method `__init__`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908358] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1408 in public method `place`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908398] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1537 in public function `vector_norm`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908438] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1576 in public function `unit_vector`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908480] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1620 in public function `random_vector`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908520] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1635 in public function `inverse_matrix`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908560] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1651 in public function `concatenate_matrices`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908603] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1667 in public function `is_same_transform`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908644] (ros2_aruco) StdoutLine: {'line': b'./ros2_aruco/transformations.py:1683 in private function `_import_module`: D213: Multi-line docstring summary should start at the second line\n'}
+[0.908684] (ros2_aruco) StdoutLine: {'line': b'checking ./setup.py\n'}
+[0.908724] (ros2_aruco) StdoutLine: {'line': b'checking ./test/test_copyright.py\n'}
+[0.908764] (ros2_aruco) StdoutLine: {'line': b'checking ./test/test_flake8.py\n'}
+[0.908803] (ros2_aruco) StdoutLine: {'line': b'checking ./test/test_pep257.py\n'}
+[0.908847] (ros2_aruco) StdoutLine: {'line': b'checking test/test_copyright.py\n'}
+[0.908887] (ros2_aruco) StdoutLine: {'line': b'checking test/test_flake8.py\n'}
+[0.908927] (ros2_aruco) StdoutLine: {'line': b'checking test/test_pep257.py\n'}
+[0.908967] (ros2_aruco) StdoutLine: {'line': b'51 errors\n'}
+[0.909006] (ros2_aruco) StdoutLine: {'line': b'- generated xml file: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/pytest.xml -\n'}
+[0.909046] (ros2_aruco) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[0.909086] (ros2_aruco) StdoutLine: {'line': b'FAILED test/test_copyright.py::test_copyright - AssertionError: Found errors\n'}
+[0.909126] (ros2_aruco) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found errors\n'}
+[0.909167] (ros2_aruco) StdoutLine: {'line': b'FAILED test/test_pep257.py::test_pep257 - AssertionError: Found code style er...\n'}
+[0.909207] (ros2_aruco) StdoutLine: {'line': b'\x1b[31m======================== \x1b[31m\x1b[1m3 failed\x1b[0m, \x1b[33m27 warnings\x1b[0m\x1b[31m in 0.50s\x1b[0m\x1b[31m ========================\x1b[0m\n'}
+[0.953254] (ros2_aruco) CommandEnded: {'returncode': 1}
+[0.953557] (ros2_aruco) TestFailure: {'identifier': 'ros2_aruco'}
+[0.953585] (ros2_aruco) JobEnded: {'identifier': 'ros2_aruco', 'rc': 0}
+[1.002849] (-) TimerEvent: {}
+[1.103102] (-) TimerEvent: {}
+[1.203354] (-) TimerEvent: {}
+[1.303606] (-) TimerEvent: {}
+[1.404113] (-) TimerEvent: {}
+[1.504829] (-) TimerEvent: {}
+[1.605323] (-) TimerEvent: {}
+[1.705816] (-) TimerEvent: {}
+[1.806534] (-) TimerEvent: {}
+[1.907064] (-) TimerEvent: {}
+[2.007563] (-) TimerEvent: {}
+[2.107887] (-) TimerEvent: {}
+[2.208170] (-) TimerEvent: {}
+[2.308495] (-) TimerEvent: {}
+[2.408767] (-) TimerEvent: {}
+[2.509031] (-) TimerEvent: {}
+[2.609321] (-) TimerEvent: {}
+[2.709724] (-) TimerEvent: {}
+[2.810226] (-) TimerEvent: {}
+[2.910602] (-) TimerEvent: {}
+[3.011130] (-) TimerEvent: {}
+[3.111812] (-) TimerEvent: {}
+[3.212280] (-) TimerEvent: {}
+[3.312678] (-) TimerEvent: {}
+[3.413171] (-) TimerEvent: {}
+[3.513603] (-) TimerEvent: {}
+[3.613906] (-) TimerEvent: {}
+[3.714432] (-) TimerEvent: {}
+[3.814941] (-) TimerEvent: {}
+[3.915603] (-) TimerEvent: {}
+[4.016043] (-) TimerEvent: {}
+[4.116321] (-) TimerEvent: {}
+[4.216576] (-) TimerEvent: {}
+[4.316846] (-) TimerEvent: {}
+[4.417107] (-) TimerEvent: {}
+[4.517419] (-) TimerEvent: {}
+[4.618092] (-) TimerEvent: {}
+[4.718499] (-) TimerEvent: {}
+[4.818846] (-) TimerEvent: {}
+[4.919157] (-) TimerEvent: {}
+[5.019701] (-) TimerEvent: {}
+[5.120395] (-) TimerEvent: {}
+[5.221165] (-) TimerEvent: {}
+[5.321592] (-) TimerEvent: {}
+[5.421852] (-) TimerEvent: {}
+[5.522280] (-) TimerEvent: {}
+[5.622698] (-) TimerEvent: {}
+[5.722967] (-) TimerEvent: {}
+[5.823312] (-) TimerEvent: {}
+[5.923731] (-) TimerEvent: {}
+[6.024185] (-) TimerEvent: {}
+[6.124598] (-) TimerEvent: {}
+[6.224963] (-) TimerEvent: {}
+[6.325460] (-) TimerEvent: {}
+[6.425967] (-) TimerEvent: {}
+[6.526339] (-) TimerEvent: {}
+[6.626635] (-) TimerEvent: {}
+[6.727069] (-) TimerEvent: {}
+[6.827473] (-) TimerEvent: {}
+[6.927753] (-) TimerEvent: {}
+[7.028023] (-) TimerEvent: {}
+[7.128316] (-) TimerEvent: {}
+[7.228831] (-) TimerEvent: {}
+[7.329529] (-) TimerEvent: {}
+[7.429957] (-) TimerEvent: {}
+[7.530262] (-) TimerEvent: {}
+[7.630733] (-) TimerEvent: {}
+[7.731272] (-) TimerEvent: {}
+[7.831539] (-) TimerEvent: {}
+[7.932043] (-) TimerEvent: {}
+[8.032944] (-) TimerEvent: {}
+[8.133891] (-) TimerEvent: {}
+[8.234586] (-) TimerEvent: {}
+[8.335381] (-) TimerEvent: {}
+[8.436126] (-) TimerEvent: {}
+[8.536616] (-) TimerEvent: {}
+[8.637014] (-) TimerEvent: {}
+[8.737317] (-) TimerEvent: {}
+[8.837682] (-) TimerEvent: {}
+[8.938040] (-) TimerEvent: {}
+[9.038317] (-) TimerEvent: {}
+[9.138621] (-) TimerEvent: {}
+[9.238966] (-) TimerEvent: {}
+[9.339368] (-) TimerEvent: {}
+[9.439648] (-) TimerEvent: {}
+[9.539922] (-) TimerEvent: {}
+[9.640206] (-) TimerEvent: {}
+[9.740474] (-) TimerEvent: {}
+[9.840745] (-) TimerEvent: {}
+[9.941043] (-) TimerEvent: {}
+[10.041369] (-) TimerEvent: {}
+[10.141745] (-) TimerEvent: {}
+[10.242049] (-) TimerEvent: {}
+[10.342383] (-) TimerEvent: {}
+[10.442773] (-) TimerEvent: {}
+[10.543149] (-) TimerEvent: {}
+[10.643674] (-) TimerEvent: {}
+[10.744401] (-) TimerEvent: {}
+[10.845085] (-) TimerEvent: {}
+[10.945891] (-) TimerEvent: {}
+[11.046551] (-) TimerEvent: {}
+[11.147154] (-) TimerEvent: {}
+[11.247627] (-) TimerEvent: {}
+[11.347899] (-) TimerEvent: {}
+[11.448166] (-) TimerEvent: {}
+[11.548705] (-) TimerEvent: {}
+[11.649410] (-) TimerEvent: {}
+[11.749852] (-) TimerEvent: {}
+[11.850186] (-) TimerEvent: {}
+[11.950636] (-) TimerEvent: {}
+[12.051200] (-) TimerEvent: {}
+[12.151660] (-) TimerEvent: {}
+[12.252040] (-) TimerEvent: {}
+[12.352427] (-) TimerEvent: {}
+[12.452885] (-) TimerEvent: {}
+[12.553182] (-) TimerEvent: {}
+[12.653431] (-) TimerEvent: {}
+[12.753754] (-) TimerEvent: {}
+[12.854706] (-) TimerEvent: {}
+[12.955106] (-) TimerEvent: {}
+[13.055503] (-) TimerEvent: {}
+[13.155837] (-) TimerEvent: {}
+[13.256133] (-) TimerEvent: {}
+[13.356392] (-) TimerEvent: {}
+[13.456752] (-) TimerEvent: {}
+[13.557212] (-) TimerEvent: {}
+[13.657660] (-) TimerEvent: {}
+[13.758097] (-) TimerEvent: {}
+[13.858361] (-) TimerEvent: {}
+[13.958673] (-) TimerEvent: {}
+[14.059052] (-) TimerEvent: {}
+[14.159443] (-) TimerEvent: {}
+[14.259833] (-) TimerEvent: {}
+[14.360450] (-) TimerEvent: {}
+[14.460856] (-) TimerEvent: {}
+[14.561280] (-) TimerEvent: {}
+[14.661558] (-) TimerEvent: {}
+[14.762221] (-) TimerEvent: {}
+[14.862726] (-) TimerEvent: {}
+[14.963231] (-) TimerEvent: {}
+[15.063490] (-) TimerEvent: {}
+[15.163769] (-) TimerEvent: {}
+[15.264091] (-) TimerEvent: {}
+[15.364410] (-) TimerEvent: {}
+[15.465147] (-) TimerEvent: {}
+[15.565533] (-) TimerEvent: {}
+[15.665831] (-) TimerEvent: {}
+[15.766183] (-) TimerEvent: {}
+[15.866653] (-) TimerEvent: {}
+[15.967181] (-) TimerEvent: {}
+[16.067755] (-) TimerEvent: {}
+[16.168271] (-) TimerEvent: {}
+[16.268597] (-) TimerEvent: {}
+[16.368861] (-) TimerEvent: {}
+[16.469200] (-) TimerEvent: {}
+[16.569778] (-) TimerEvent: {}
+[16.670474] (-) TimerEvent: {}
+[16.771205] (-) TimerEvent: {}
+[16.871718] (-) TimerEvent: {}
+[16.972135] (-) TimerEvent: {}
+[17.072588] (-) TimerEvent: {}
+[17.173050] (-) TimerEvent: {}
+[17.273512] (-) TimerEvent: {}
+[17.373892] (-) TimerEvent: {}
+[17.474319] (-) TimerEvent: {}
+[17.574571] (-) TimerEvent: {}
+[17.674863] (-) TimerEvent: {}
+[17.775307] (-) TimerEvent: {}
+[17.875730] (-) TimerEvent: {}
+[17.976270] (-) TimerEvent: {}
+[18.077050] (-) TimerEvent: {}
+[18.177518] (-) TimerEvent: {}
+[18.278163] (-) TimerEvent: {}
+[18.378678] (-) TimerEvent: {}
+[18.479055] (-) TimerEvent: {}
+[18.579473] (-) TimerEvent: {}
+[18.680405] (-) TimerEvent: {}
+[18.780676] (-) TimerEvent: {}
+[18.880944] (-) TimerEvent: {}
+[18.981242] (-) TimerEvent: {}
+[19.081840] (-) TimerEvent: {}
+[19.182393] (-) TimerEvent: {}
+[19.282976] (-) TimerEvent: {}
+[19.383337] (-) TimerEvent: {}
+[19.483666] (-) TimerEvent: {}
+[19.584069] (-) TimerEvent: {}
+[19.684427] (-) TimerEvent: {}
+[19.784795] (-) TimerEvent: {}
+[19.885515] (-) TimerEvent: {}
+[19.985776] (-) TimerEvent: {}
+[20.086053] (-) TimerEvent: {}
+[20.186455] (-) TimerEvent: {}
+[20.286956] (-) TimerEvent: {}
+[20.387558] (-) TimerEvent: {}
+[20.488045] (-) TimerEvent: {}
+[20.588344] (-) TimerEvent: {}
+[20.688701] (-) TimerEvent: {}
+[20.789111] (-) TimerEvent: {}
+[20.889430] (-) TimerEvent: {}
+[20.989767] (-) TimerEvent: {}
+[21.090062] (-) TimerEvent: {}
+[21.190524] (-) TimerEvent: {}
+[21.290940] (-) TimerEvent: {}
+[21.391277] (-) TimerEvent: {}
+[21.491679] (-) TimerEvent: {}
+[21.592128] (-) TimerEvent: {}
+[21.692556] (-) TimerEvent: {}
+[21.792829] (-) TimerEvent: {}
+[21.893115] (-) TimerEvent: {}
+[21.993393] (-) TimerEvent: {}
+[22.093697] (-) TimerEvent: {}
+[22.194028] (-) TimerEvent: {}
+[22.294451] (-) TimerEvent: {}
+[22.394695] (-) TimerEvent: {}
+[22.494966] (-) TimerEvent: {}
+[22.595295] (-) TimerEvent: {}
+[22.695631] (-) TimerEvent: {}
+[22.796082] (-) TimerEvent: {}
+[22.896429] (-) TimerEvent: {}
+[22.997118] (-) TimerEvent: {}
+[23.097871] (-) TimerEvent: {}
+[23.198533] (-) TimerEvent: {}
+[23.299045] (-) TimerEvent: {}
+[23.399524] (-) TimerEvent: {}
+[23.499857] (-) TimerEvent: {}
+[23.600121] (-) TimerEvent: {}
+[23.700380] (-) TimerEvent: {}
+[23.800652] (-) TimerEvent: {}
+[23.900966] (-) TimerEvent: {}
+[24.001410] (-) TimerEvent: {}
+[24.101838] (-) TimerEvent: {}
+[24.202480] (-) TimerEvent: {}
+[24.303100] (-) TimerEvent: {}
+[24.403583] (-) TimerEvent: {}
+[24.503891] (-) TimerEvent: {}
+[24.604206] (-) TimerEvent: {}
+[24.704562] (-) TimerEvent: {}
+[24.804838] (-) TimerEvent: {}
+[24.905156] (-) TimerEvent: {}
+[25.005539] (-) TimerEvent: {}
+[25.105940] (-) TimerEvent: {}
+[25.206322] (-) TimerEvent: {}
+[25.306762] (-) TimerEvent: {}
+[25.407176] (-) TimerEvent: {}
+[25.507607] (-) TimerEvent: {}
+[25.608007] (-) TimerEvent: {}
+[25.708489] (-) TimerEvent: {}
+[25.808879] (-) TimerEvent: {}
+[25.909253] (-) TimerEvent: {}
+[26.009529] (-) TimerEvent: {}
+[26.109789] (-) TimerEvent: {}
+[26.210093] (-) TimerEvent: {}
+[26.310485] (-) TimerEvent: {}
+[26.410971] (-) TimerEvent: {}
+[26.511417] (-) TimerEvent: {}
+[26.611737] (-) TimerEvent: {}
+[26.712133] (-) TimerEvent: {}
+[26.812500] (-) TimerEvent: {}
+[26.912810] (-) TimerEvent: {}
+[27.013081] (-) TimerEvent: {}
+[27.113333] (-) TimerEvent: {}
+[27.213590] (-) TimerEvent: {}
+[27.313868] (-) TimerEvent: {}
+[27.414213] (-) TimerEvent: {}
+[27.514685] (-) TimerEvent: {}
+[27.615235] (-) TimerEvent: {}
+[27.715623] (-) TimerEvent: {}
+[27.816092] (-) TimerEvent: {}
+[27.916456] (-) TimerEvent: {}
+[28.017009] (-) TimerEvent: {}
+[28.117722] (-) TimerEvent: {}
+[28.218216] (-) TimerEvent: {}
+[28.318614] (-) TimerEvent: {}
+[28.418868] (-) TimerEvent: {}
+[28.519141] (-) TimerEvent: {}
+[28.619465] (-) TimerEvent: {}
+[28.719818] (-) TimerEvent: {}
+[28.820318] (-) TimerEvent: {}
+[28.920876] (-) TimerEvent: {}
+[29.021382] (-) TimerEvent: {}
+[29.121729] (-) TimerEvent: {}
+[29.222245] (-) TimerEvent: {}
+[29.322736] (-) TimerEvent: {}
+[29.423140] (-) TimerEvent: {}
+[29.523595] (-) TimerEvent: {}
+[29.623908] (-) TimerEvent: {}
+[29.724272] (-) TimerEvent: {}
+[29.824757] (-) TimerEvent: {}
+[29.925400] (-) TimerEvent: {}
+[30.025945] (-) TimerEvent: {}
+[30.126450] (-) TimerEvent: {}
+[30.226798] (-) TimerEvent: {}
+[30.327521] (-) TimerEvent: {}
+[30.428219] (-) TimerEvent: {}
+[30.528886] (-) TimerEvent: {}
+[30.629315] (-) TimerEvent: {}
+[30.729715] (-) TimerEvent: {}
+[30.830548] (-) TimerEvent: {}
+[30.930826] (-) TimerEvent: {}
+[31.031165] (-) TimerEvent: {}
+[31.131632] (-) TimerEvent: {}
+[31.232015] (-) TimerEvent: {}
+[31.332438] (-) TimerEvent: {}
+[31.433092] (-) TimerEvent: {}
+[31.533712] (-) TimerEvent: {}
+[31.634458] (-) TimerEvent: {}
+[31.735080] (-) TimerEvent: {}
+[31.835868] (-) TimerEvent: {}
+[31.936620] (-) TimerEvent: {}
+[32.037054] (-) TimerEvent: {}
+[32.137321] (-) TimerEvent: {}
+[32.237929] (-) TimerEvent: {}
+[32.338652] (-) TimerEvent: {}
+[32.439515] (-) TimerEvent: {}
+[32.540712] (-) TimerEvent: {}
+[32.641284] (-) TimerEvent: {}
+[32.741685] (-) TimerEvent: {}
+[32.841987] (-) TimerEvent: {}
+[32.942397] (-) TimerEvent: {}
+[33.042754] (-) TimerEvent: {}
+[33.143256] (-) TimerEvent: {}
+[33.243726] (-) TimerEvent: {}
+[33.344139] (-) TimerEvent: {}
+[33.444715] (-) TimerEvent: {}
+[33.545144] (-) TimerEvent: {}
+[33.645503] (-) TimerEvent: {}
+[33.745807] (-) TimerEvent: {}
+[33.846188] (-) TimerEvent: {}
+[33.946455] (-) TimerEvent: {}
+[34.046810] (-) TimerEvent: {}
+[34.147284] (-) TimerEvent: {}
+[34.247991] (-) TimerEvent: {}
+[34.348671] (-) TimerEvent: {}
+[34.449125] (-) TimerEvent: {}
+[34.549364] (-) TimerEvent: {}
+[34.649616] (-) TimerEvent: {}
+[34.749982] (-) TimerEvent: {}
+[34.850722] (-) TimerEvent: {}
+[34.951007] (-) TimerEvent: {}
+[35.051526] (-) TimerEvent: {}
+[35.152169] (-) TimerEvent: {}
+[35.252844] (-) TimerEvent: {}
+[35.353349] (-) TimerEvent: {}
+[35.454114] (-) TimerEvent: {}
+[35.554728] (-) TimerEvent: {}
+[35.655234] (-) TimerEvent: {}
+[35.755476] (-) TimerEvent: {}
+[35.855761] (-) TimerEvent: {}
+[35.956105] (-) TimerEvent: {}
+[36.056591] (-) TimerEvent: {}
+[36.157067] (-) TimerEvent: {}
+[36.257854] (-) TimerEvent: {}
+[36.358381] (-) TimerEvent: {}
+[36.459219] (-) TimerEvent: {}
+[36.559707] (-) TimerEvent: {}
+[36.659981] (-) TimerEvent: {}
+[36.760334] (-) TimerEvent: {}
+[36.860847] (-) TimerEvent: {}
+[36.961223] (-) TimerEvent: {}
+[37.061736] (-) TimerEvent: {}
+[37.162646] (-) TimerEvent: {}
+[37.263192] (-) TimerEvent: {}
+[37.363553] (-) TimerEvent: {}
+[37.463866] (-) TimerEvent: {}
+[37.564248] (-) TimerEvent: {}
+[37.664978] (-) TimerEvent: {}
+[37.765428] (-) TimerEvent: {}
+[37.865837] (-) TimerEvent: {}
+[37.966738] (-) TimerEvent: {}
+[38.067152] (-) TimerEvent: {}
+[38.167419] (-) TimerEvent: {}
+[38.268088] (-) TimerEvent: {}
+[38.368782] (-) TimerEvent: {}
+[38.469780] (-) TimerEvent: {}
+[38.570399] (-) TimerEvent: {}
+[38.670699] (-) TimerEvent: {}
+[38.771039] (-) TimerEvent: {}
+[38.871397] (-) TimerEvent: {}
+[38.971770] (-) TimerEvent: {}
+[39.072158] (-) TimerEvent: {}
+[39.172622] (-) TimerEvent: {}
+[39.272899] (-) TimerEvent: {}
+[39.373147] (-) TimerEvent: {}
+[39.473429] (-) TimerEvent: {}
+[39.574113] (-) TimerEvent: {}
+[39.674672] (-) TimerEvent: {}
+[39.775415] (-) TimerEvent: {}
+[39.875909] (-) TimerEvent: {}
+[39.976478] (-) TimerEvent: {}
+[40.077002] (-) TimerEvent: {}
+[40.177380] (-) TimerEvent: {}
+[40.277697] (-) TimerEvent: {}
+[40.378030] (-) TimerEvent: {}
+[40.478321] (-) TimerEvent: {}
+[40.578661] (-) TimerEvent: {}
+[40.679029] (-) TimerEvent: {}
+[40.779394] (-) TimerEvent: {}
+[40.879745] (-) TimerEvent: {}
+[40.980275] (-) TimerEvent: {}
+[41.080999] (-) TimerEvent: {}
+[41.181665] (-) TimerEvent: {}
+[41.282364] (-) TimerEvent: {}
+[41.382832] (-) TimerEvent: {}
+[41.483261] (-) TimerEvent: {}
+[41.583584] (-) TimerEvent: {}
+[41.683934] (-) TimerEvent: {}
+[41.784192] (-) TimerEvent: {}
+[41.884592] (-) TimerEvent: {}
+[41.984867] (-) TimerEvent: {}
+[42.085571] (-) TimerEvent: {}
+[42.186403] (-) TimerEvent: {}
+[42.287227] (-) TimerEvent: {}
+[42.388089] (-) TimerEvent: {}
+[42.488563] (-) TimerEvent: {}
+[42.589224] (-) TimerEvent: {}
+[42.689950] (-) TimerEvent: {}
+[42.790585] (-) TimerEvent: {}
+[42.891020] (-) TimerEvent: {}
+[42.991249] (-) TimerEvent: {}
+[43.091848] (-) TimerEvent: {}
+[43.192518] (-) TimerEvent: {}
+[43.292995] (-) TimerEvent: {}
+[43.393612] (-) TimerEvent: {}
+[43.494235] (-) TimerEvent: {}
+[43.595372] (-) TimerEvent: {}
+[43.695776] (-) TimerEvent: {}
+[43.796388] (-) TimerEvent: {}
+[43.896891] (-) TimerEvent: {}
+[43.997389] (-) TimerEvent: {}
+[44.097823] (-) TimerEvent: {}
+[44.198129] (-) TimerEvent: {}
+[44.298585] (-) TimerEvent: {}
+[44.399184] (-) TimerEvent: {}
+[44.499736] (-) TimerEvent: {}
+[44.600301] (-) TimerEvent: {}
+[44.700911] (-) TimerEvent: {}
+[44.801437] (-) TimerEvent: {}
+[44.902148] (-) TimerEvent: {}
+[45.002705] (-) TimerEvent: {}
+[45.103229] (-) TimerEvent: {}
+[45.203613] (-) TimerEvent: {}
+[45.303958] (-) TimerEvent: {}
+[45.404229] (-) TimerEvent: {}
+[45.504480] (-) TimerEvent: {}
+[45.604767] (-) TimerEvent: {}
+[45.705411] (-) TimerEvent: {}
+[45.806212] (-) TimerEvent: {}
+[45.907081] (-) TimerEvent: {}
+[46.007943] (-) TimerEvent: {}
+[46.108833] (-) TimerEvent: {}
+[46.209295] (-) TimerEvent: {}
+[46.309966] (-) TimerEvent: {}
+[46.410522] (-) TimerEvent: {}
+[46.510934] (-) TimerEvent: {}
+[46.611246] (-) TimerEvent: {}
+[46.711595] (-) TimerEvent: {}
+[46.811992] (-) TimerEvent: {}
+[46.912320] (-) TimerEvent: {}
+[47.012609] (-) TimerEvent: {}
+[47.112894] (-) TimerEvent: {}
+[47.213189] (-) TimerEvent: {}
+[47.313526] (-) TimerEvent: {}
+[47.413956] (-) TimerEvent: {}
+[47.514289] (-) TimerEvent: {}
+[47.614669] (-) TimerEvent: {}
+[47.714979] (-) TimerEvent: {}
+[47.815224] (-) TimerEvent: {}
+[47.915470] (-) TimerEvent: {}
+[48.015773] (-) TimerEvent: {}
+[48.116228] (-) TimerEvent: {}
+[48.216706] (-) TimerEvent: {}
+[48.317023] (-) TimerEvent: {}
+[48.417316] (-) TimerEvent: {}
+[48.517630] (-) TimerEvent: {}
+[48.617903] (-) TimerEvent: {}
+[48.718223] (-) TimerEvent: {}
+[48.818545] (-) TimerEvent: {}
+[48.918797] (-) TimerEvent: {}
+[49.019041] (-) TimerEvent: {}
+[49.119317] (-) TimerEvent: {}
+[49.219630] (-) TimerEvent: {}
+[49.319959] (-) TimerEvent: {}
+[49.420352] (-) TimerEvent: {}
+[49.520765] (-) TimerEvent: {}
+[49.621217] (-) TimerEvent: {}
+[49.721809] (-) TimerEvent: {}
+[49.822274] (-) TimerEvent: {}
+[49.922597] (-) TimerEvent: {}
+[50.022915] (-) TimerEvent: {}
+[50.123267] (-) TimerEvent: {}
+[50.223526] (-) TimerEvent: {}
+[50.323770] (-) TimerEvent: {}
+[50.424110] (-) TimerEvent: {}
+[50.524551] (-) TimerEvent: {}
+[50.624946] (-) TimerEvent: {}
+[50.725676] (-) TimerEvent: {}
+[50.826617] (-) TimerEvent: {}
+[50.927606] (-) TimerEvent: {}
+[51.027978] (-) TimerEvent: {}
+[51.128366] (-) TimerEvent: {}
+[51.228925] (-) TimerEvent: {}
+[51.329378] (-) TimerEvent: {}
+[51.429670] (-) TimerEvent: {}
+[51.529987] (-) TimerEvent: {}
+[51.630435] (-) TimerEvent: {}
+[51.730759] (-) TimerEvent: {}
+[51.831033] (-) TimerEvent: {}
+[51.931320] (-) TimerEvent: {}
+[52.031611] (-) TimerEvent: {}
+[52.132035] (-) TimerEvent: {}
+[52.232443] (-) TimerEvent: {}
+[52.332864] (-) TimerEvent: {}
+[52.433301] (-) TimerEvent: {}
+[52.533883] (-) TimerEvent: {}
+[52.634469] (-) TimerEvent: {}
+[52.734853] (-) TimerEvent: {}
+[52.835122] (-) TimerEvent: {}
+[52.935500] (-) TimerEvent: {}
+[53.035979] (-) TimerEvent: {}
+[53.136663] (-) TimerEvent: {}
+[53.237419] (-) TimerEvent: {}
+[53.338376] (-) TimerEvent: {}
+[53.438911] (-) TimerEvent: {}
+[53.539437] (-) TimerEvent: {}
+[53.639780] (-) TimerEvent: {}
+[53.740164] (-) TimerEvent: {}
+[53.840579] (-) TimerEvent: {}
+[53.940837] (-) TimerEvent: {}
+[54.041192] (-) TimerEvent: {}
+[54.141629] (-) TimerEvent: {}
+[54.242152] (-) TimerEvent: {}
+[54.342655] (-) TimerEvent: {}
+[54.443294] (-) TimerEvent: {}
+[54.543574] (-) TimerEvent: {}
+[54.643890] (-) TimerEvent: {}
+[54.744178] (-) TimerEvent: {}
+[54.844459] (-) TimerEvent: {}
+[54.944749] (-) TimerEvent: {}
+[55.045115] (-) TimerEvent: {}
+[55.145408] (-) TimerEvent: {}
+[55.246004] (-) TimerEvent: {}
+[55.346477] (-) TimerEvent: {}
+[55.446957] (-) TimerEvent: {}
+[55.547549] (-) TimerEvent: {}
+[55.648002] (-) TimerEvent: {}
+[55.748305] (-) TimerEvent: {}
+[55.848598] (-) TimerEvent: {}
+[55.948959] (-) TimerEvent: {}
+[56.049427] (-) TimerEvent: {}
+[56.149774] (-) TimerEvent: {}
+[56.250163] (-) TimerEvent: {}
+[56.350738] (-) TimerEvent: {}
+[56.451119] (-) TimerEvent: {}
+[56.551644] (-) TimerEvent: {}
+[56.652272] (-) TimerEvent: {}
+[56.752961] (-) TimerEvent: {}
+[56.853608] (-) TimerEvent: {}
+[56.954044] (-) TimerEvent: {}
+[57.054339] (-) TimerEvent: {}
+[57.154631] (-) TimerEvent: {}
+[57.254986] (-) TimerEvent: {}
+[57.355339] (-) TimerEvent: {}
+[57.455713] (-) TimerEvent: {}
+[57.555970] (-) TimerEvent: {}
+[57.656473] (-) TimerEvent: {}
+[57.757142] (-) TimerEvent: {}
+[57.857835] (-) TimerEvent: {}
+[57.958538] (-) TimerEvent: {}
+[58.058929] (-) TimerEvent: {}
+[58.159432] (-) TimerEvent: {}
+[58.259942] (-) TimerEvent: {}
+[58.360565] (-) TimerEvent: {}
+[58.461478] (-) TimerEvent: {}
+[58.561951] (-) TimerEvent: {}
+[58.662402] (-) TimerEvent: {}
+[58.762652] (-) TimerEvent: {}
+[58.862960] (-) TimerEvent: {}
+[58.963427] (-) TimerEvent: {}
+[59.064172] (-) TimerEvent: {}
+[59.164572] (-) TimerEvent: {}
+[59.264922] (-) TimerEvent: {}
+[59.365328] (-) TimerEvent: {}
+[59.465710] (-) TimerEvent: {}
+[59.566819] (-) TimerEvent: {}
+[59.667257] (-) TimerEvent: {}
+[59.767697] (-) TimerEvent: {}
+[59.868050] (-) TimerEvent: {}
+[59.968511] (-) TimerEvent: {}
+[60.068939] (-) TimerEvent: {}
+[60.169359] (-) TimerEvent: {}
+[60.269958] (-) TimerEvent: {}
+[60.370391] (-) TimerEvent: {}
+[60.470723] (-) TimerEvent: {}
+[60.571080] (-) TimerEvent: {}
+[60.671489] (-) TimerEvent: {}
+[60.771938] (-) TimerEvent: {}
+[60.872655] (-) TimerEvent: {}
+[60.879419] (tb3) StdoutLine: {'line': b'1/2 Test #1: tb3_test .........................***Timeout  60.06 sec\n'}
+[60.879650] (tb3) StdoutLine: {'line': b'test 2\n'}
+[60.879713] (tb3) StdoutLine: {'line': b'    Start 2: pep257\n'}
+[60.879767] (tb3) StdoutLine: {'line': b'\n'}
+[60.879816] (tb3) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml" "--package-name" "tb3" "--output-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml"\n'}
+[60.879877] (tb3) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[60.915087] (tb3) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL':\n"}
+[60.915276] (tb3) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml\n'}
+[60.972754] (-) TimerEvent: {}
+[61.005157] (tb3) StdoutLine: {'line': b'2: checking ./launch/demo_launch.py\n'}
+[61.005323] (tb3) StdoutLine: {'line': b'2: checking ./launch/gazebo.launch.py\n'}
+[61.005386] (tb3) StdoutLine: {'line': b'2: checking ./launch/load_world_into_gazebo.launch.py\n'}
+[61.005441] (tb3) StdoutLine: {'line': b'2: No problems found\n'}
+[61.019499] (tb3) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[61.019718] (tb3) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml'\n"}
+[61.025116] (tb3) StdoutLine: {'line': b'2/2 Test #2: pep257 ...........................   Passed    0.15 sec\n'}
+[61.025316] (tb3) StdoutLine: {'line': b'\n'}
+[61.025414] (tb3) StdoutLine: {'line': b'50% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 2\n'}
+[61.025461] (tb3) StdoutLine: {'line': b'\n'}
+[61.025503] (tb3) StdoutLine: {'line': b'Label Time Summary:\n'}
+[61.025543] (tb3) StdoutLine: {'line': b'gtest     =  60.06 sec*proc (1 test)\n'}
+[61.025585] (tb3) StdoutLine: {'line': b'linter    =   0.15 sec*proc (1 test)\n'}
+[61.025628] (tb3) StdoutLine: {'line': b'pep257    =   0.15 sec*proc (1 test)\n'}
+[61.025674] (tb3) StdoutLine: {'line': b'\n'}
+[61.025715] (tb3) StdoutLine: {'line': b'Total Test time (real) =  60.20 sec\n'}
+[61.025756] (tb3) StdoutLine: {'line': b'\n'}
+[61.025797] (tb3) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[61.025838] (tb3) StdoutLine: {'line': b'\t\x1b[0;31m  1 - tb3_test (Timeout)\x1b[0;0m\n'}
+[61.043904] (tb3) StderrLine: {'line': b'Errors while running CTest\n'}
+[61.044050] (tb3) StderrLine: {'line': b'Output from these tests are in: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/Testing/Temporary/LastTest.log\n'}
+[61.044112] (tb3) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[61.045177] (tb3) CommandEnded: {'returncode': 8}
+[61.045371] (tb3) TestFailure: {'identifier': 'tb3'}
+[61.045391] (tb3) JobEnded: {'identifier': 'tb3', 'rc': 0}
+[61.045827] (-) EventReactorShutdown: {}

@@ -1,0 +1,397 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav_msgs: 4.2.2 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2: 0.25.1 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found tutorial_interfaces: 0.0.0 (/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 10%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/turtlebot_sim.dir/src/turtlebot_sim.cpp.o[0m
+[ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 10%] Built target ament_cmake_python_copy_tb3
+running egg_info
+creating tb3.egg-info
+writing tb3.egg-info/PKG-INFO
+writing dependency_links to tb3.egg-info/dependency_links.txt
+writing top-level names to tb3.egg-info/top_level.txt
+writing manifest file 'tb3.egg-info/SOURCES.txt'
+reading manifest file 'tb3.egg-info/SOURCES.txt'
+writing manifest file 'tb3.egg-info/SOURCES.txt'
+[ 10%] Built target ament_cmake_python_build_tb3_egg
+[ 10%] Built target tb3__cpp
+[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 20%] [32mBuilding C object CMakeFiles/tb3__rosidl_generator_c.dir/rosidl_generator_c/tb3/srv/detail/change_string__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/tb3__rosidl_generator_c.dir/rosidl_generator_c/tb3/msg/detail/data__functions.c.o[0m
+[ 22%] [32m[1mLinking C shared library libtb3__rosidl_generator_c.so[0m
+[ 22%] Built target tb3__rosidl_generator_c
+[ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/tb3__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tb3/srv/change_string__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/tb3__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tb3/msg/data__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/tb3__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tb3/srv/detail/dds_fastrtps/change_string__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/tb3__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tb3/msg/detail/dds_fastrtps/data__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/tb3__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tb3/msg/detail/data__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/tb3__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tb3/srv/detail/change_string__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/tb3__rosidl_typesupport_c.dir/rosidl_typesupport_c/tb3/msg/data__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/tb3__rosidl_typesupport_c.dir/rosidl_typesupport_c/tb3/srv/change_string__type_support.cpp.o[0m
+[ 46%] [32m[1mLinking CXX shared library libtb3__rosidl_typesupport_c.so[0m
+[ 46%] Built target tb3__rosidl_typesupport_c
+[ 55%] [32mBuilding C object CMakeFiles/tb3__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tb3/msg/detail/data__type_support.c.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/tb3__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tb3/srv/detail/change_string__type_support_c.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/tb3__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tb3/msg/detail/data__type_support_c.cpp.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/tb3__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tb3/srv/detail/change_string__type_support.c.o[0m
+[ 57%] [32m[1mLinking C shared library libtb3__rosidl_typesupport_introspection_c.so[0m
+[ 59%] [32m[1mLinking CXX shared library libtb3__rosidl_typesupport_cpp.so[0m
+[ 59%] Built target tb3__rosidl_typesupport_introspection_c
+[ 59%] Built target tb3__rosidl_typesupport_cpp
+[ 61%] [32mBuilding CXX object CMakeFiles/tb3G.dir/src/tb3controller.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library libtb3__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 65%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 67%] [32m[1mLinking CXX shared library libtb3__rosidl_typesupport_introspection_cpp.so[0m
+[ 67%] Built target gtest_main
+[ 67%] Built target tb3__rosidl_typesupport_introspection_cpp
+[ 67%] Built target tb3__rosidl_typesupport_fastrtps_cpp
+[ 69%] [32m[1mLinking CXX shared library libtb3__rosidl_typesupport_fastrtps_c.so[0m
+[ 69%] Built target tb3__rosidl_typesupport_fastrtps_c
+[ 69%] Built target tb3
+[ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 71%] Built target tb3__py
+[ 75%] [32mBuilding C object CMakeFiles/tb3__rosidl_generator_py.dir/rosidl_generator_py/tb3/srv/_change_string_s.c.o[0m
+[ 75%] [32mBuilding C object CMakeFiles/tb3__rosidl_generator_py.dir/rosidl_generator_py/tb3/msg/_data_s.c.o[0m
+[ 77%] [32m[1mLinking C shared library rosidl_generator_py/tb3/libtb3__rosidl_generator_py.so[0m
+[ 77%] Built target tb3__rosidl_generator_py
+[ 83%] [32mBuilding C object CMakeFiles/tb3__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tb3/_tb3_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/tb3__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tb3/_tb3_s.ep.rosidl_typesupport_c.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/tb3__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tb3/_tb3_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/tb3/tb3_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/tb3/tb3_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/tb3/tb3_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 89%] Built target tb3__rosidl_typesupport_c__pyext
+[ 89%] Built target tb3__rosidl_typesupport_introspection_c__pyext
+[ 89%] Built target tb3__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 91%] Built target gtest
+[ 93%] [32mBuilding CXX object CMakeFiles/tb3_test.dir/test/test.cpp.o[0m
+In file included from [01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/tb3controller.cpp:27[m[K:
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/../include/tb3/tb3controller.hpp:[m[K In constructor ‘[01m[Ktb3::tb3(std::string, std::string, bool, double, double, bool)[m[K’:
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/../include/tb3/tb3controller.hpp:133:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktb3::m_robot_name[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  133 |     std::string [01;35m[Km_robot_name[m[K;
+      |                 [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/../include/tb3/tb3controller.hpp:131:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble tb3::m_goal_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  131 |     double [01;35m[Km_goal_x[m[K = 5.0;
+      |            [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/tb3controller.cpp:27[m[K:
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/../include/tb3/tb3controller.hpp:49:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   49 |   [01;35m[Ktb3[m[K(std::string node_name = "tb3",
+      |   [01;35m[K^~~[m[K
+In file included from [01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/tb3controller.cpp:27[m[K:
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/../include/tb3/tb3controller.hpp:146:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktb3::m_go_to_goal[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  146 |     bool [01;35m[Km_go_to_goal[m[K;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/../include/tb3/tb3controller.hpp:134:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble tb3::m_linear_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  134 |     double [01;35m[Km_linear_speed[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/tb3controller.cpp:27[m[K:
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/../include/tb3/tb3controller.hpp:49:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   49 |   [01;35m[Ktb3[m[K(std::string node_name = "tb3",
+      |   [01;35m[K^~~[m[K
+In file included from [01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/tb3controller.cpp:27[m[K:
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/../include/tb3/tb3controller.hpp:147:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktb3::m_go_to_angle[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  147 |     bool [01;35m[Km_go_to_angle[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/../include/tb3/tb3controller.hpp:141:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble tb3::m_distance_to_goal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  141 |     double [01;35m[Km_distance_to_goal[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/tb3controller.cpp:27[m[K:
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/../include/tb3/tb3controller.hpp:49:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   49 |   [01;35m[Ktb3[m[K(std::string node_name = "tb3",
+      |   [01;35m[K^~~[m[K
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/../include/tb3/tb3controller.hpp:81:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpose_topic_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   81 |         auto [01;35m[Kpose_topic_name[m[K = "/odom";
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/tb3controller.cpp:[m[K In member function ‘[01m[Kvoid tb3::go_to_goal_callback()[m[K’:
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/src/tb3controller.cpp:136:8:[m[K [01;35m[Kwarning: [m[Ksuggest explicit braces to avoid ambiguous ‘[01m[Kelse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdangling-else-Wdangling-else]8;;[m[K]
+  136 |     if [01;35m[K([m[K(!m_go_to_goal) && (!m_go_to_angle))
+      |        [01;35m[K^[m[K
+[ 95%] [32m[1mLinking CXX executable tb3G[0m
+[ 95%] Built target tb3G
+[ 97%] [32m[1mLinking CXX executable turtlebot_sim[0m
+[ 97%] Built target turtlebot_sim
+[100%] [32m[1mLinking CXX executable tb3_test[0m
+[100%] Built target tb3_test
+-- Install configuration: ""
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/ament_index/resource_index/rosidl_interfaces/tb3
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/data.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__functions.c
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__functions.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__type_support.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__struct.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__functions.c
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__type_support.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__functions.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__struct.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/change_string.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/library_path.sh
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/library_path.dsv
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_generator_c.so
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__struct.hpp
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__builder.hpp
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__traits.hpp
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/data.hpp
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__struct.hpp
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__builder.hpp
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__traits.hpp
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/change_string.hpp
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/dds_fastrtps
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/dds_fastrtps
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__rosidl_typesupport_introspection_c.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__type_support.c
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__rosidl_typesupport_introspection_c.h
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__type_support.c
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_c.so
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__type_support.cpp
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv
+-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__type_support.cpp
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/pythonpath.sh
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/pythonpath.dsv
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3-0.0.0-py3.10.egg-info
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg/__init__.py
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg/_data.py
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg/_data_s.c
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/__init__.py
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv/__init__.py
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv/_change_string.py
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv/_change_string_s.c
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/_tb3_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/libtb3__rosidl_generator_py.so
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/_tb3_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/_tb3_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3'...
+Compiling '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/__init__.py'...
+Listing '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg'...
+Compiling '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg/__init__.py'...
+Compiling '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg/_data.py'...
+Listing '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv'...
+Compiling '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv/__init__.py'...
+Compiling '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv/_change_string.py'...
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_generator_py.so
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_generator_py.so" to ""
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/msg/Data.idl
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/srv/ChangeString.idl
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/msg/Data.msg
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/srv/ChangeString.srv
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/srv/ChangeString_Request.msg
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/srv/ChangeString_Response.msg
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/tb3/tb3G
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/tb3/tb3G" to ""
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/tb3/turtlebot_sim
+-- Set runtime path of "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/tb3/turtlebot_sim" to ""
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//launch
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//launch/load_world_into_gazebo.launch.py
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//launch/demo_launch.py
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//launch/gazebo.launch.py
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world_2_b.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/cafe_2.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/final_world.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/cafe.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/final_world_1.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/final_world_3.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/final_world_2.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world_1.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world_3_bak.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world_5_bak.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world_2_bak.world
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/model.config
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/materials
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/materials/textures
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/materials/textures/marker_3.png
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/materials/scripts
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/materials/scripts/marker.material
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/model.sdf
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/model.config
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/materials
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/materials/textures
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/materials/textures/marker_1.png
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/materials/scripts
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/materials/scripts/marker.material
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/model.sdf
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/model.config
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/materials
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/materials/textures
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/materials/textures/marker_2.png
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/materials/scripts
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/materials/scripts/marker.material
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/model.sdf
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/model.config
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/materials
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/materials/textures
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/materials/textures/marker_0.png
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/materials/scripts
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/materials/scripts/marker.material
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/model.sdf
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//scripts
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//scripts/generate_coverage_report.bash
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/tb3/generate_coverage_report.bash
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/ament_index/resource_index/package_run_dependencies/tb3
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/ament_index/resource_index/parent_prefix_path/tb3
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/ament_prefix_path.sh
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/ament_prefix_path.dsv
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/path.sh
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/path.dsv
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/local_setup.bash
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/local_setup.sh
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/local_setup.zsh
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/local_setup.dsv
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/package.dsv
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/ament_index/resource_index/packages/tb3
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_generator_cExport.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_generator_cppExport.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_cExport.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_generator_pyExport.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3Config.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3Config-version.cmake
+-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/package.xml

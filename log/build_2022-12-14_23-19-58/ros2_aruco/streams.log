@@ -1,0 +1,48 @@
+[0.372s] Invoking command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ros2_aruco': PYTHONPATH=/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/prefix_override:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_aruco build --build-base /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build install --record /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed
+[0.505s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.506s]   warnings.warn(
+[0.510s] running egg_info
+[0.511s] creating ../build/ros2_aruco/ros2_aruco.egg-info
+[0.511s] writing ../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[0.511s] writing dependency_links to ../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[0.511s] writing entry points to ../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[0.511s] writing requirements to ../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[0.511s] writing top-level names to ../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[0.511s] writing manifest file '../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[0.512s] reading manifest file '../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[0.513s] writing manifest file '../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[0.513s] running build
+[0.513s] running build_py
+[0.513s] creating /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build
+[0.513s] creating /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build/lib
+[0.513s] creating /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build/lib/ros2_aruco
+[0.513s] copying ros2_aruco/__init__.py -> /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build/lib/ros2_aruco
+[0.513s] copying ros2_aruco/aruco_generate_marker.py -> /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build/lib/ros2_aruco
+[0.513s] copying ros2_aruco/transformations.py -> /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build/lib/ros2_aruco
+[0.513s] copying ros2_aruco/aruco_node.py -> /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build/lib/ros2_aruco
+[0.513s] running install
+[0.514s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.514s]   warnings.warn(
+[0.514s] running install_lib
+[0.514s] creating /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[0.514s] copying /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build/lib/ros2_aruco/__init__.py -> /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[0.514s] copying /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build/lib/ros2_aruco/aruco_generate_marker.py -> /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[0.514s] copying /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build/lib/ros2_aruco/transformations.py -> /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[0.515s] copying /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build/lib/ros2_aruco/aruco_node.py -> /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[0.515s] byte-compiling /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/__init__.py to __init__.cpython-310.pyc
+[0.515s] byte-compiling /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_generate_marker.py to aruco_generate_marker.cpython-310.pyc
+[0.515s] byte-compiling /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/transformations.py to transformations.cpython-310.pyc
+[0.522s] byte-compiling /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_node.py to aruco_node.cpython-310.pyc
+[0.522s] running install_data
+[0.523s] creating /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/share/ament_index
+[0.523s] creating /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/share/ament_index/resource_index
+[0.523s] creating /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/share/ament_index/resource_index/packages
+[0.523s] copying resource/ros2_aruco -> /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/share/ament_index/resource_index/packages
+[0.523s] copying package.xml -> /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/share/ros2_aruco
+[0.523s] running install_egg_info
+[0.524s] Copying ../build/ros2_aruco/ros2_aruco.egg-info to /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info
+[0.524s] running install_scripts
+[0.537s] Installing aruco_generate_marker script to /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/ros2_aruco
+[0.537s] Installing aruco_node script to /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/ros2_aruco
+[0.537s] writing list of installed files to '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/install.log'
+[0.554s] Invoked command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ros2_aruco' returned '0': PYTHONPATH=/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/prefix_override:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_aruco build --build-base /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build install --record /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed

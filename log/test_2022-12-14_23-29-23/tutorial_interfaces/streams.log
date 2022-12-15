@@ -1,0 +1,51 @@
+[0.165s] Invoking command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3 LD_LIBRARY_PATH=/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.168s] UpdateCTestConfiguration  from :/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/CTestConfiguration.ini
+[0.168s] Parse Config file:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/CTestConfiguration.ini
+[0.168s]    Site: fa2a076f34cb
+[0.169s]    Build name: (empty)
+[0.169s]  Add coverage exclude regular expressions.
+[0.169s] Create new tag: 20221215-0429 - Experimental
+[0.169s] UpdateCTestConfiguration  from :/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/CTestConfiguration.ini
+[0.169s] Parse Config file:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/CTestConfiguration.ini
+[0.169s] Test project /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces
+[0.169s] Constructing a list of tests
+[0.169s] Done constructing a list of tests
+[0.169s] Updating test list for fixtures
+[0.169s] Added 0 tests to meet fixture requirements
+[0.169s] Checking test dependency graph...
+[0.169s] Checking test dependency graph end
+[0.169s] test 1
+[0.169s]     Start 1: lint_cmake
+[0.169s] 
+[0.169s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml"
+[0.169s] 1: Test timeout computed to be: 60
+[0.214s] 1: -- run_test.py: invoking following command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/tutorial_interfaces':
+[0.214s] 1:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml
+[0.256s] 1: 
+[0.256s] 1: No problems found
+[0.262s] 1: -- run_test.py: return code 0
+[0.262s] 1: -- run_test.py: verify result file '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml'
+[0.268s] 1/2 Test #1: lint_cmake .......................   Passed    0.10 sec
+[0.268s] test 2
+[0.268s]     Start 2: xmllint
+[0.268s] 
+[0.268s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml"
+[0.268s] 2: Test timeout computed to be: 60
+[0.304s] 2: -- run_test.py: invoking following command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/tutorial_interfaces':
+[0.304s] 2:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml
+[0.763s] 2: File 'package.xml' is valid
+[0.763s] 2: 
+[0.763s] 2: No problems found
+[0.769s] 2: -- run_test.py: return code 0
+[0.770s] 2: -- run_test.py: verify result file '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml'
+[0.776s] 2/2 Test #2: xmllint ..........................   Passed    0.51 sec
+[0.776s] 
+[0.776s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 2
+[0.776s] 
+[0.777s] Label Time Summary:
+[0.777s] lint_cmake    =   0.10 sec*proc (1 test)
+[0.777s] linter        =   0.61 sec*proc (2 tests)
+[0.777s] xmllint       =   0.51 sec*proc (1 test)
+[0.777s] 
+[0.777s] Total Test time (real) =   0.61 sec
+[0.802s] Invoked command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3 LD_LIBRARY_PATH=/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

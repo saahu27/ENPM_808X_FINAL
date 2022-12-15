@@ -1,0 +1,23 @@
+[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/test/controller_test.cpp
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+  CMakeLists.txt:80 (ament_add_gtest)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+/usr/bin/ld: CMakeFiles/tb3_test.dir/test/controller_test.cpp.o:(.bss+0x0): multiple definition of `TaskPlanningFixture_TrueIsTrueTest_Test::test_info_'; CMakeFiles/tb3_test.dir/test/test.cpp.o:(.bss+0x0): first defined here
+/usr/bin/ld: CMakeFiles/tb3_test.dir/test/controller_test.cpp.o: in function `TaskPlanningFixture_TrueIsTrueTest_Test::TestBody()':
+controller_test.cpp:(.text+0x2c8): multiple definition of `TaskPlanningFixture_TrueIsTrueTest_Test::TestBody()'; CMakeFiles/tb3_test.dir/test/test.cpp.o:test.cpp:(.text+0x2c8): first defined here
+/usr/bin/ld: CMakeFiles/tb3_test.dir/test/controller_test.cpp.o: in function `main':
+controller_test.cpp:(.text+0x8fa): multiple definition of `main'; CMakeFiles/tb3_test.dir/test/test.cpp.o:test.cpp:(.text+0x8fa): first defined here
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/tb3_test.dir/build.make:239: tb3_test] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:616: CMakeFiles/tb3_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

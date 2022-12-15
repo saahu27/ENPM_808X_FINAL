@@ -1,0 +1,54 @@
+UpdateCTestConfiguration  from :/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/CTestConfiguration.ini
+Parse Config file:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/CTestConfiguration.ini
+   Site: fa2a076f34cb
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20221215-0628 - Experimental
+UpdateCTestConfiguration  from :/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/CTestConfiguration.ini
+Parse Config file:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/CTestConfiguration.ini
+Test project /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: tb3_test
+
+1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/tb3_test.gtest.xml" "--package-name" "tb3" "--output-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/ament_cmake_gtest/tb3_test.txt" "--command" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/tb3_test" "--gtest_output=xml:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/tb3_test.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3':
+1:  - /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/tb3_test --gtest_output=xml:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/tb3_test.gtest.xml
+1: [==========] Running 1 test from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 1 test from TaskPlanningFixture
+1: [ RUN      ] TaskPlanningFixture.TrueIsTrueTest
+1: [INFO] [1671085723.180330242] [basic_test]: DONE WITH CONSTRUCTOR!!
+1/2 Test #1: tb3_test .........................***Timeout  60.06 sec
+test 2
+    Start 2: pep257
+
+2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml" "--package-name" "tb3" "--output-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml"
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL':
+2:  - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml
+2: checking ./launch/demo_launch.py
+2: checking ./launch/gazebo.launch.py
+2: checking ./launch/load_world_into_gazebo.launch.py
+2: No problems found
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml'
+2/2 Test #2: pep257 ...........................   Passed    0.15 sec
+
+50% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 2
+
+Label Time Summary:
+gtest     =  60.06 sec*proc (1 test)
+linter    =   0.15 sec*proc (1 test)
+pep257    =   0.15 sec*proc (1 test)
+
+Total Test time (real) =  60.21 sec
+
+The following tests FAILED:
+	[0;31m  1 - tb3_test (Timeout)[0;0m

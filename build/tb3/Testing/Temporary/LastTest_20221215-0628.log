@@ -1,0 +1,55 @@
+Start testing: Dec 15 01:28 EST
+----------------------------------------------------------
+1/2 Testing: tb3_test
+1/2 Test: tb3_test
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/tb3_test.gtest.xml" "--package-name" "tb3" "--output-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/ament_cmake_gtest/tb3_test.txt" "--command" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/tb3_test" "--gtest_output=xml:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/tb3_test.gtest.xml"
+Directory: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3
+"tb3_test" start time: Dec 15 01:28 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3':
+ - /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/tb3_test --gtest_output=xml:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/tb3_test.gtest.xml
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TaskPlanningFixture
+[ RUN      ] TaskPlanningFixture.TrueIsTrueTest
+[INFO] [1671085723.180330242] [basic_test]: DONE WITH CONSTRUCTOR!!
+<end of output>
+Test time =  60.06 sec
+----------------------------------------------------------
+Test Failed.
+"tb3_test" end time: Dec 15 01:29 EST
+"tb3_test" time elapsed: 00:01:00
+----------------------------------------------------------
+
+2/2 Testing: pep257
+2/2 Test: pep257
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml" "--package-name" "tb3" "--output-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml"
+Directory: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL
+"pep257" start time: Dec 15 01:29 EST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml
+checking ./launch/demo_launch.py
+checking ./launch/gazebo.launch.py
+checking ./launch/load_world_into_gazebo.launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/pep257.xunit.xml'
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"pep257" end time: Dec 15 01:29 EST
+"pep257" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 15 01:29 EST
+
+gtest =  60.06 sec*proc
+
+linter =   0.15 sec*proc
+
+pep257 =   0.15 sec*proc
+

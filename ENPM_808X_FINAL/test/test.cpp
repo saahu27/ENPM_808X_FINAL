@@ -116,16 +116,16 @@ TEST_F(TaskPlanningFixture, TrueIsTrueTest)
   /*
    * 2.) subscribe to the topic
    */
-  using std_msgs::msg::String;
-  using SUBSCRIBER = rclcpp::Subscription<String>::SharedPtr;
+  using SUBSCRIBER = rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr;
   bool hasData            = false;
-  SUBSCRIBER subscription = node_->create_subscription<String>(
-    "topic", 10,
+  SUBSCRIBER subscription = node_->create_subscription<nav_msgs::msg::Odometry>(
+    "/odom", 10,
 
     // Lambda expression begins
-    [&](const std_msgs::msg::String& msg) {
-    RCLCPP_INFO(node_->get_logger(), "I heard: '%s'", msg.data.c_str());
+    [&](const nav_msgs::msg::Odometry& msg) {
+    RCLCPP_INFO(node_->get_logger(), "I heard: '%f'", msg.twist.twist.angular.z);
     hasData = true;
+    std::cout<<"Hi";
   }
 
     // end of lambda expression

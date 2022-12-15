@@ -1,0 +1,494 @@
+[0.000000] (-) TimerEvent: {}
+[0.000685] (ros2_aruco) JobQueued: {'identifier': 'ros2_aruco', 'dependencies': OrderedDict()}
+[0.000712] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000729] (tb3) JobQueued: {'identifier': 'tb3', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces')])}
+[0.000745] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.007688] (ros2_aruco) JobStarted: {'identifier': 'ros2_aruco'}
+[0.013700] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.014175] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.014781] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', 'fa2a076f34cb'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chotu'), ('OLDPWD', '/home/chotu/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker6auzguhv.xauth'), ('AMENT_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:3cbeac55-f9ad-401f-a59f-3e2fbefe48db'), ('PWD', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[0.047802] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] Built target tutorial_interfaces__cpp\n'}
+[0.048035] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[0.054198] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[0.061661] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[0.061887] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.061972] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.062047] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[0.062113] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.062171] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.073874] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces\n'}
+[0.086275] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__py\n'}
+[0.099840] (-) TimerEvent: {}
+[0.101214] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[0.117393] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.117681] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.117745] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.199934] (-) TimerEvent: {}
+[0.219354] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.219876] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[0.220059] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[0.220194] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[0.221590] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[0.222114] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[0.243543] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[0.250084] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[0.281241] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[0.286280] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces'], 'cwd': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', 'fa2a076f34cb'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chotu'), ('OLDPWD', '/home/chotu/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker6auzguhv.xauth'), ('AMENT_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:3cbeac55-f9ad-401f-a59f-3e2fbefe48db'), ('PWD', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[0.290826] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.291012] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[0.291081] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.291141] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.291203] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.291259] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[0.291314] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[0.291389] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[0.291489] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[0.291545] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[0.291599] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.291708] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[0.291784] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[0.291840] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[0.291893] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.291943] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.291994] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.292043] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[0.292094] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.292185] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.292243] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.292304] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.292348] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.292391] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[0.292434] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[0.292477] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[0.292519] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[0.292561] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.292603] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.292644] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.292684] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[0.292728] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.292771] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.292813] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.292859] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.292902] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.292943] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.293018] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[0.293064] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[0.293109] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.293213] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.293259] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[0.293302] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[0.293345] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[0.293389] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[0.293433] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.293477] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[0.293545] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.293589] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.293631] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[0.293673] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[0.293713] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.293755] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.293797] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.293838] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.293879] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.293919] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[0.293959] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg\n'}
+[0.294000] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py\n'}
+[0.294047] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[0.294089] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[0.294130] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.294174] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.294215] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.294256] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[0.294297] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.294337] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[0.294378] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.294417] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.299996] (-) TimerEvent: {}
+[0.312200] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[0.312349] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[0.314829] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.315015] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.315190] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.315344] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[0.315434] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[0.315511] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[0.315602] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[0.315659] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[0.315713] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[0.315765] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.315816] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[0.315868] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[0.315952] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[0.316005] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[0.316079] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[0.316134] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[0.316186] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[0.316243] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[0.316286] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.316329] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.316371] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.316414] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.316458] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.316553] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.316617] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.316683] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.316980] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.317025] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.317066] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.317106] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.317150] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.317193] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.317232] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.317272] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.317329] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.317369] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.317407] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.317452] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.317494] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.317533] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.317574] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.317614] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.317658] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[0.317697] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[0.317737] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[0.318360] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[0.371869] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[0.372259] (tb3) JobStarted: {'identifier': 'tb3'}
+[0.378495] (tb3) JobProgress: {'identifier': 'tb3', 'progress': 'cmake'}
+[0.379214] (tb3) JobProgress: {'identifier': 'tb3', 'progress': 'build'}
+[0.379429] (tb3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3', '--', '-j16', '-l16'], 'cwd': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3', 'env': OrderedDict([('HOSTNAME', 'fa2a076f34cb'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chotu'), ('OLDPWD', '/home/chotu/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker6auzguhv.xauth'), ('AMENT_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:3cbeac55-f9ad-401f-a59f-3e2fbefe48db'), ('PWD', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[0.400102] (-) TimerEvent: {}
+[0.402475] (tb3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.407561] (ros2_aruco) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/ros2_aruco', 'build', '--build-base', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/build', 'install', '--record', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/install.log', '--install-scripts', '$base/lib/ros2_aruco', '--single-version-externally-managed'], 'cwd': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ros2_aruco', 'env': {'HOSTNAME': 'fa2a076f34cb', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/chotu', 'OLDPWD': '/home/chotu/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'COLCON_PREFIX_PATH': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.docker6auzguhv.xauth', 'AMENT_PREFIX_PATH': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:3cbeac55-f9ad-401f-a59f-3e2fbefe48db', 'PWD': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/prefix_override:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces'}, 'shell': False}
+[0.499789] (tb3) StdoutLine: {'line': b'-- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500165] (-) TimerEvent: {}
+[0.521498] (tb3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.523056] (tb3) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.527452] (tb3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.534753] (tb3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.545419] (tb3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.549470] (ros2_aruco) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[0.549588] (ros2_aruco) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.556253] (ros2_aruco) StdoutLine: {'line': b'running egg_info\n'}
+[0.557320] (ros2_aruco) StdoutLine: {'line': b'writing ../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO\n'}
+[0.557709] (ros2_aruco) StdoutLine: {'line': b'writing dependency_links to ../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt\n'}
+[0.557943] (ros2_aruco) StdoutLine: {'line': b'writing entry points to ../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt\n'}
+[0.558090] (ros2_aruco) StdoutLine: {'line': b'writing requirements to ../build/ros2_aruco/ros2_aruco.egg-info/requires.txt\n'}
+[0.558178] (ros2_aruco) StdoutLine: {'line': b'writing top-level names to ../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt\n'}
+[0.560658] (ros2_aruco) StdoutLine: {'line': b"reading manifest file '../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[0.561550] (ros2_aruco) StdoutLine: {'line': b"writing manifest file '../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[0.561650] (ros2_aruco) StdoutLine: {'line': b'running build\n'}
+[0.561733] (ros2_aruco) StdoutLine: {'line': b'running build_py\n'}
+[0.562102] (ros2_aruco) StdoutLine: {'line': b'running install\n'}
+[0.562240] (ros2_aruco) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.562317] (ros2_aruco) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.562474] (ros2_aruco) StdoutLine: {'line': b'running install_lib\n'}
+[0.563511] (ros2_aruco) StdoutLine: {'line': b'running install_data\n'}
+[0.563868] (ros2_aruco) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.565197] (ros2_aruco) StdoutLine: {'line': b"removing '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[0.565443] (ros2_aruco) StdoutLine: {'line': b'Copying ../build/ros2_aruco/ros2_aruco.egg-info to /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info\n'}
+[0.566061] (ros2_aruco) StdoutLine: {'line': b'running install_scripts\n'}
+[0.582386] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_generate_marker script to /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/ros2_aruco\n'}
+[0.582566] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_node script to /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/ros2_aruco\n'}
+[0.582725] (ros2_aruco) StdoutLine: {'line': b"writing list of installed files to '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/ros2_aruco/install.log'\n"}
+[0.587573] (tb3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.588464] (tb3) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600275] (-) TimerEvent: {}
+[0.604483] (ros2_aruco) CommandEnded: {'returncode': 0}
+[0.609746] (ros2_aruco) JobEnded: {'identifier': 'ros2_aruco', 'rc': 0}
+[0.682696] (tb3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700405] (-) TimerEvent: {}
+[0.800708] (-) TimerEvent: {}
+[0.802517] (tb3) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.885698] (tb3) StdoutLine: {'line': b'-- Found tf2: 0.25.1 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.890900] (tb3) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.1 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.900777] (-) TimerEvent: {}
+[1.001034] (-) TimerEvent: {}
+[1.101410] (-) TimerEvent: {}
+[1.111076] (tb3) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.167495] (tb3) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.201504] (-) TimerEvent: {}
+[1.301769] (-) TimerEvent: {}
+[1.349886] (tb3) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.401877] (-) TimerEvent: {}
+[1.502137] (-) TimerEvent: {}
+[1.582799] (tb3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.602228] (-) TimerEvent: {}
+[1.677045] (tb3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.691100] (tb3) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.702308] (-) TimerEvent: {}
+[1.704957] (tb3) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.705087] (tb3) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.705177] (tb3) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.722220] (tb3) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.722581] (tb3) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.775302] (tb3) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.786357] (tb3) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.787272] (tb3) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.802387] (-) TimerEvent: {}
+[1.822450] (tb3) StdoutLine: {'line': b'-- Generating done\n'}
+[1.825350] (tb3) StdoutLine: {'line': b'-- Build files have been written to: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3\n'}
+[1.847245] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[1.847432] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3__rosidl_generator_c\x1b[0m\n'}
+[1.847527] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[1.847642] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlebot_sim\x1b[0m\n'}
+[1.852936] (tb3) StdoutLine: {'line': b'[  2%] Built target tb3__cpp\n'}
+[1.853425] (tb3) StdoutLine: {'line': b'[ 10%] Built target tb3__rosidl_generator_c\n'}
+[1.855721] (tb3) StdoutLine: {'line': b'[ 18%] Built target gtest_main\n'}
+[1.855934] (tb3) StdoutLine: {'line': b'[ 18%] Built target gtest\n'}
+[1.860165] (tb3) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_copy_tb3\n'}
+[1.860515] (tb3) StdoutLine: {'line': b'[ 22%] Built target turtlebot_sim\n'}
+[1.860615] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.860699] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.860826] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.860911] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.860984] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.861388] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_c\x1b[0m\n'}
+[1.862714] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3_test\x1b[0m\n'}
+[1.871771] (tb3) StdoutLine: {'line': b'[ 59%] Built target tb3__rosidl_typesupport_c\n'}
+[1.872098] (tb3) StdoutLine: {'line': b'[ 59%] Built target tb3__rosidl_typesupport_fastrtps_cpp\n'}
+[1.872195] (tb3) StdoutLine: {'line': b'[ 59%] Built target tb3__rosidl_typesupport_fastrtps_c\n'}
+[1.872291] (tb3) StdoutLine: {'line': b'[ 59%] Built target tb3__rosidl_typesupport_introspection_cpp\n'}
+[1.872383] (tb3) StdoutLine: {'line': b'[ 65%] Built target tb3__rosidl_typesupport_cpp\n'}
+[1.872468] (tb3) StdoutLine: {'line': b'[ 71%] Built target tb3__rosidl_typesupport_introspection_c\n'}
+[1.880922] (tb3) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX executable tb3_test\x1b[0m\n'}
+[1.881383] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3G\x1b[0m\n'}
+[1.888492] (tb3) StdoutLine: {'line': b'[ 73%] Built target tb3\n'}
+[1.899254] (tb3) StdoutLine: {'line': b'[ 77%] Built target tb3G\n'}
+[1.902478] (-) TimerEvent: {}
+[1.902782] (tb3) StdoutLine: {'line': b'[ 79%] Built target tb3__py\n'}
+[1.910878] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3__rosidl_generator_py\x1b[0m\n'}
+[1.921284] (tb3) StdoutLine: {'line': b'[ 85%] Built target tb3__rosidl_generator_py\n'}
+[1.928638] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.928898] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.929046] (tb3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.938653] (tb3) StdoutLine: {'line': b'[ 97%] Built target tb3__rosidl_typesupport_c__pyext\n'}
+[1.938843] (tb3) StdoutLine: {'line': b'[ 97%] Built target tb3__rosidl_typesupport_introspection_c__pyext\n'}
+[1.938938] (tb3) StdoutLine: {'line': b'[ 97%] Built target tb3__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.002582] (-) TimerEvent: {}
+[2.026944] (tb3) StdoutLine: {'line': b'running egg_info\n'}
+[2.027692] (tb3) StdoutLine: {'line': b'writing tb3.egg-info/PKG-INFO\n'}
+[2.027886] (tb3) StdoutLine: {'line': b'writing dependency_links to tb3.egg-info/dependency_links.txt\n'}
+[2.028013] (tb3) StdoutLine: {'line': b'writing top-level names to tb3.egg-info/top_level.txt\n'}
+[2.030303] (tb3) StdoutLine: {'line': b"reading manifest file 'tb3.egg-info/SOURCES.txt'\n"}
+[2.030922] (tb3) StdoutLine: {'line': b"writing manifest file 'tb3.egg-info/SOURCES.txt'\n"}
+[2.058924] (tb3) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_tb3_egg\n'}
+[2.102694] (-) TimerEvent: {}
+[2.200118] (tb3) StdoutLine: {'line': b'[100%] Built target tb3_test\n'}
+[2.202760] (-) TimerEvent: {}
+[2.206230] (tb3) CommandEnded: {'returncode': 0}
+[2.250177] (tb3) JobProgress: {'identifier': 'tb3', 'progress': 'install'}
+[2.250742] (tb3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3'], 'cwd': '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3', 'env': OrderedDict([('HOSTNAME', 'fa2a076f34cb'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/lib:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chotu'), ('OLDPWD', '/home/chotu/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.docker6auzguhv.xauth'), ('AMENT_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:3cbeac55-f9ad-401f-a59f-3e2fbefe48db'), ('PWD', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tutorial_interfaces:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/ros2_aruco:/opt/ros/humble')]), 'shell': False}
+[2.255330] (tb3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.255469] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/ament_index/resource_index/rosidl_interfaces/tb3\n'}
+[2.255544] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3\n'}
+[2.255675] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg\n'}
+[2.255750] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/data.h\n'}
+[2.255809] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail\n'}
+[2.255892] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__functions.c\n'}
+[2.255952] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__functions.h\n'}
+[2.256007] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__type_support.h\n'}
+[2.256059] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__struct.h\n'}
+[2.256113] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.256170] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv\n'}
+[2.256234] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail\n'}
+[2.256288] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__functions.c\n'}
+[2.256338] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__type_support.h\n'}
+[2.256390] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__functions.h\n'}
+[2.256439] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__struct.h\n'}
+[2.256489] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/change_string.h\n'}
+[2.256541] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/library_path.sh\n'}
+[2.256591] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/library_path.dsv\n'}
+[2.256641] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_generator_c.so\n'}
+[2.256716] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3\n'}
+[2.256869] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg\n'}
+[2.256930] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail\n'}
+[2.256974] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.257030] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.257073] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv\n'}
+[2.257135] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail\n'}
+[2.257180] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__rosidl_typesupport_fastrtps_c.h\n'}
+[2.257247] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_fastrtps_c.so\n'}
+[2.257290] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3\n'}
+[2.257362] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg\n'}
+[2.257408] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail\n'}
+[2.257450] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__struct.hpp\n'}
+[2.257495] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__builder.hpp\n'}
+[2.257537] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__traits.hpp\n'}
+[2.257578] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/data.hpp\n'}
+[2.257618] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv\n'}
+[2.257658] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail\n'}
+[2.257699] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__struct.hpp\n'}
+[2.257740] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__builder.hpp\n'}
+[2.257801] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__traits.hpp\n'}
+[2.257851] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/change_string.hpp\n'}
+[2.257893] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3\n'}
+[2.257933] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg\n'}
+[2.257979] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail\n'}
+[2.258038] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/dds_fastrtps\n'}
+[2.258094] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.258239] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.258283] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv\n'}
+[2.258396] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail\n'}
+[2.258438] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/dds_fastrtps\n'}
+[2.258477] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.258517] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.258557] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3\n'}
+[2.258595] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg\n'}
+[2.258633] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail\n'}
+[2.258671] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__rosidl_typesupport_introspection_c.h\n'}
+[2.258728] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__type_support.c\n'}
+[2.258777] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.258817] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv\n'}
+[2.258856] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail\n'}
+[2.258911] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__rosidl_typesupport_introspection_c.h\n'}
+[2.258952] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__type_support.c\n'}
+[2.258992] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_introspection_c.so\n'}
+[2.259032] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_c.so\n'}
+[2.259071] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3\n'}
+[2.259109] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg\n'}
+[2.259148] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail\n'}
+[2.259197] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__type_support.cpp\n'}
+[2.259237] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.259275] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv\n'}
+[2.259313] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail\n'}
+[2.259351] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__type_support.cpp\n'}
+[2.259388] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/include/tb3/tb3/srv/detail/change_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.259427] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_introspection_cpp.so\n'}
+[2.259469] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_typesupport_cpp.so\n'}
+[2.259511] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/pythonpath.sh\n'}
+[2.259551] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/pythonpath.dsv\n'}
+[2.259592] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3-0.0.0-py3.10.egg-info\n'}
+[2.259631] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.259670] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.259709] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.259747] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.259792] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3\n'}
+[2.259832] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg\n'}
+[2.259871] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg/__init__.py\n'}
+[2.259910] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg/_data.py\n'}
+[2.259947] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg/_data_s.c\n'}
+[2.259985] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.260024] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.260065] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/__init__.py\n'}
+[2.260102] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv\n'}
+[2.260140] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv/__init__.py\n'}
+[2.260179] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv/_change_string.py\n'}
+[2.260229] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv/_change_string_s.c\n'}
+[2.260285] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/_tb3_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.260324] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/libtb3__rosidl_generator_py.so\n'}
+[2.260363] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/_tb3_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.260400] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/_tb3_s.ep.rosidl_typesupport_c.c\n'}
+[2.260439] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.279618] (tb3) StdoutLine: {'line': b"Listing '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3'...\n"}
+[2.279774] (tb3) StdoutLine: {'line': b"Compiling '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/__init__.py'...\n"}
+[2.279851] (tb3) StdoutLine: {'line': b"Listing '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/msg'...\n"}
+[2.279938] (tb3) StdoutLine: {'line': b"Listing '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/srv'...\n"}
+[2.282404] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.282564] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.282713] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/local/lib/python3.10/dist-packages/tb3/tb3_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.282866] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/libtb3__rosidl_generator_py.so\n'}
+[2.282968] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/msg/Data.idl\n'}
+[2.283055] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/srv/ChangeString.idl\n'}
+[2.283112] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/msg/Data.msg\n'}
+[2.283165] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/srv/ChangeString.srv\n'}
+[2.283218] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/srv/ChangeString_Request.msg\n'}
+[2.283292] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/srv/ChangeString_Response.msg\n'}
+[2.283347] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/tb3/tb3G\n'}
+[2.283400] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/tb3/turtlebot_sim\n'}
+[2.283506] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//launch\n'}
+[2.283562] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//launch/load_world_into_gazebo.launch.py\n'}
+[2.283613] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//launch/demo_launch.py\n'}
+[2.283667] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//launch/gazebo.launch.py\n'}
+[2.283719] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds\n'}
+[2.283785] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world_2_b.world\n'}
+[2.283844] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/cafe_2.world\n'}
+[2.283899] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/final_world.world\n'}
+[2.283946] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/cafe.world\n'}
+[2.283987] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/final_world_1.world\n'}
+[2.284030] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/final_world_3.world\n'}
+[2.284072] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/final_world_2.world\n'}
+[2.284112] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world_1.world\n'}
+[2.284152] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world_3_bak.world\n'}
+[2.284210] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world_5_bak.world\n'}
+[2.284463] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world.world\n'}
+[2.284512] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//worlds/custom_world_2_bak.world\n'}
+[2.284555] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models\n'}
+[2.284612] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3\n'}
+[2.284656] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/model.config\n'}
+[2.284698] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/materials\n'}
+[2.284739] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/materials/textures\n'}
+[2.284797] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/materials/textures/marker_3.png\n'}
+[2.284839] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/materials/scripts\n'}
+[2.284883] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/materials/scripts/marker.material\n'}
+[2.284926] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_3/model.sdf\n'}
+[2.284966] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1\n'}
+[2.285009] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/model.config\n'}
+[2.285050] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/materials\n'}
+[2.285091] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/materials/textures\n'}
+[2.285131] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/materials/textures/marker_1.png\n'}
+[2.285172] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/materials/scripts\n'}
+[2.285214] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/materials/scripts/marker.material\n'}
+[2.285253] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_1/model.sdf\n'}
+[2.285295] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2\n'}
+[2.285336] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/model.config\n'}
+[2.285412] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/materials\n'}
+[2.285455] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/materials/textures\n'}
+[2.285497] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/materials/textures/marker_2.png\n'}
+[2.285540] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/materials/scripts\n'}
+[2.285582] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/materials/scripts/marker.material\n'}
+[2.285623] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_2/model.sdf\n'}
+[2.285664] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0\n'}
+[2.285734] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/model.config\n'}
+[2.285775] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/materials\n'}
+[2.285817] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/materials/textures\n'}
+[2.285857] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/materials/textures/marker_0.png\n'}
+[2.285909] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/materials/scripts\n'}
+[2.285956] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/materials/scripts/marker.material\n'}
+[2.286009] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//models/aruco_marker_0/model.sdf\n'}
+[2.286052] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//scripts\n'}
+[2.286090] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3//scripts/generate_coverage_report.bash\n'}
+[2.286130] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/lib/tb3/generate_coverage_report.bash\n'}
+[2.286170] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/ament_index/resource_index/package_run_dependencies/tb3\n'}
+[2.286209] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/ament_index/resource_index/parent_prefix_path/tb3\n'}
+[2.286261] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/ament_prefix_path.sh\n'}
+[2.286307] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/ament_prefix_path.dsv\n'}
+[2.286353] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/path.sh\n'}
+[2.286393] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/environment/path.dsv\n'}
+[2.286431] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/local_setup.bash\n'}
+[2.286477] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/local_setup.sh\n'}
+[2.286518] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/local_setup.zsh\n'}
+[2.286570] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/local_setup.dsv\n'}
+[2.286616] (tb3) StdoutLine: {'line': b'-- Installing: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/package.dsv\n'}
+[2.286660] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/ament_index/resource_index/packages/tb3\n'}
+[2.286704] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_generator_cExport.cmake\n'}
+[2.286746] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.286788] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.286828] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.286869] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_generator_cppExport.cmake\n'}
+[2.286979] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.287040] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.287097] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.287154] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.287211] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_cExport.cmake\n'}
+[2.287266] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.287323] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.287379] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.287435] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_cppExport.cmake\n'}
+[2.287494] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.287551] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_generator_pyExport.cmake\n'}
+[2.287609] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/export_tb3__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.287666] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/rosidl_cmake-extras.cmake\n'}
+[2.287723] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.287780] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.287836] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.287892] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.288063] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.288130] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.288182] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3Config.cmake\n'}
+[2.288247] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/cmake/tb3Config-version.cmake\n'}
+[2.288698] (tb3) StdoutLine: {'line': b'-- Up-to-date: /home/chotu/ros2_ws/src/ENPM_808X_FINAL/install/tb3/share/tb3/package.xml\n'}
+[2.288768] (tb3) CommandEnded: {'returncode': 0}
+[2.302845] (-) TimerEvent: {}
+[2.352816] (tb3) JobEnded: {'identifier': 'tb3', 'rc': 0}
+[2.353262] (-) EventReactorShutdown: {}

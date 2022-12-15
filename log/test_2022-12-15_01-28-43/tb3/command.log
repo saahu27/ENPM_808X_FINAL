@@ -1,0 +1,2 @@
+Invoking command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3': /usr/bin/ctest -C Debug -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3' returned '8': /usr/bin/ctest -C Debug -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

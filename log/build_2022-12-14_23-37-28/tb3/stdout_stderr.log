@@ -1,0 +1,62 @@
+[35m[1mConsolidate compiler generated dependencies of target tb3__rosidl_generator_c[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target turtlebot_sim[0m
+[  2%] Built target tb3__cpp
+[ 10%] Built target tb3__rosidl_generator_c
+[ 14%] Built target gtest_main
+[ 18%] Built target gtest
+[ 20%] Built target ament_cmake_python_copy_tb3
+[ 22%] Built target turtlebot_sim
+[35m[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target tb3_test[0m
+[ 30%] Built target tb3__rosidl_typesupport_c
+[ 38%] Built target tb3__rosidl_typesupport_introspection_c
+[ 48%] Built target tb3__rosidl_typesupport_introspection_cpp
+[ 55%] Built target tb3__rosidl_typesupport_fastrtps_cpp
+[ 63%] Built target tb3__rosidl_typesupport_cpp
+[ 71%] Built target tb3__rosidl_typesupport_fastrtps_c
+[35m[1mConsolidate compiler generated dependencies of target tb3G[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/tb3_test.dir/test/test.cpp.o[0m
+[ 73%] Built target tb3
+[ 77%] Built target tb3G
+[ 79%] Built target tb3__py
+[35m[1mConsolidate compiler generated dependencies of target tb3__rosidl_generator_py[0m
+[ 85%] Built target tb3__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target tb3__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 97%] Built target tb3__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target tb3__rosidl_typesupport_c__pyext
+[ 97%] Built target tb3__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing tb3.egg-info/PKG-INFO
+writing dependency_links to tb3.egg-info/dependency_links.txt
+writing top-level names to tb3.egg-info/top_level.txt
+reading manifest file 'tb3.egg-info/SOURCES.txt'
+writing manifest file 'tb3.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_tb3_egg
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/test/test.cpp:11[m[K:
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/test/test.cpp:[m[K In lambda function:
+[01m[K/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL/test/test.cpp:126:58:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst Odometry[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’}
+  126 |     RCLCPP_INFO(node_->get_logger(), "I heard: '%f'", msg[01;31m[K->[m[Ktwist.twist.angular.z);
+      |                                                          [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/tb3_test.dir/build.make:76: CMakeFiles/tb3_test.dir/test/test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:616: CMakeFiles/tb3_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

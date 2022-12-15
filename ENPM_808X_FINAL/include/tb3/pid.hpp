@@ -13,8 +13,8 @@
 
 #include <iostream>
 
-/** @namespace controller TDD.hpp
- *  "include/../include/TDD.hpp"
+/** @namespace controller pid.hpp
+ *  "include/../include/pid.hpp"
  *  @brief Utility functions for PID
  */
 
@@ -23,7 +23,15 @@ namespace controller {
  * @brief class PID contains utility functions for developing a PID controller
  */
 class PID {
+
  public:
+
+  /**
+   * @brief Construct a new PID object to assign default values to the PID gains and dt
+   * 
+  */
+  PID();
+
   /**
    * @brief current goal point
    * @param setPoint_ current set point updated
@@ -61,12 +69,11 @@ class PID {
 
   /**
    * @brief method to compute PID Output
-   * @param targetVel the velocity to which we need to converge
-   * @param currentVel the current velocity
-   * @return CurrentVel after output
+   * @param error the present error in controller
+   * @return PID control output
    */
 
-  double RunController(double error_);
+  double Compute(double error_);
 
  private:
   /**
@@ -87,21 +94,27 @@ class PID {
   const double kd_ = 0.001;
 
   /**
-   * @brief variable to update the previous error
+   * @brief variable to store the current error
    * @param error_
    */
-  double error_;
+  double error_ = 0.0;
   /**
    * @brief variable to update the integral error
    * @param errorIntegral_
    */
-  double errorIntegral_;
+  double errorIntegral_ = 0.0;
 
   /**
-   * @brief variable to update the integral error
+   * @brief variable to store the previous error
    * @param errorPrevious_
    */
-  double errorPrevious_;
+  double errorPrevious_ = 0.0;
+
+  const double errorIntegralMax_ = 500.00;
+
+  const double errorIntegralMin_ = -500.00;
+
+  const double dt = 0.2;
 
 };
 }  // namespace controller

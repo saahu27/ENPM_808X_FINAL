@@ -58,8 +58,8 @@ jobs:
       - name: Configure CMake flags and build exectables
         run: |
           source /opt/ros/humble/setup.bash
-          colcon build --packages-select ros2_aruco
           colcon build --packages-select tutorial_interfaces
+          colcon build --packages-select ros2_aruco --symlink-install
           colcon build --cmake-args -DCOVERAGE=1 --packages-select tb3
           cat log/latest_build/tb3/stdout_stderr.log
           find build/tb3/ | grep -E 'gcno' # catch error -- exepct to see .gcno files

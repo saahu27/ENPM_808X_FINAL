@@ -1,6 +1,6 @@
 # ENPM_808X_FINAL
 
-[![Build Status](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/my_codecov_upload.yml/badge.svg)](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/my_codecov_upload.yml)    [![Coverage Status](https://coveralls.io/repos/github/saahu27/ENPM_808X_FINAL/badge.svg?branch=master)](https://coveralls.io/github/saahu27/ENPM_808X_FINAL?branch=master)   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Build Status](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/my_codecov_upload.yml/badge.svg)](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/my_codecov_upload.yml)    [![Coverage Status]([![codecov](https://codecov.io/gh/saahu27/ENPM_808X_FINAL/branch/main/graph/badge.svg?token=5DVHEL8JLR)](https://codecov.io/gh/saahu27/ENPM_808X_FINAL))   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ```
 OS: Ubuntu Linux Focal (20.04) 64-bit

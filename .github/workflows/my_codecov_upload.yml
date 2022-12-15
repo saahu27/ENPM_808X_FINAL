@@ -58,30 +58,32 @@ jobs:
       - name: Configure CMake flags and build exectables
         run: |
           source /opt/ros/humble/setup.bash
-          colcon build --cmake-args -DCOVERAGE=1 --packages-select ENPM_808X_FINAL
-          cat log/latest_build/ENPM_808X_FINAL/stdout_stderr.log
-          find build/ENPM_808X_FINAL/ | grep -E 'gcno' # catch error -- exepct to see .gcno files
+          colcon build --cmake-args -DCOVERAGE=1 --packages-select tb3
+          colcon build --packages-select ros2_aruco
+          colcon build --packages-select tutorial_interfaces
+          cat log/latest_build/tb3/stdout_stderr.log
+          find build/tb3/ | grep -E 'gcno' # catch error -- exepct to see .gcno files
       
       # Run unit test and also check c++ code (and others) for style and static coding errors
       - name: Run unit test and check code error
         run: |
           source /opt/ros/humble/setup.bash
-          colcon test --packages-select ENPM_808X_FINAL
-          cat log/latest_test/ENPM_808X_FINAL/stdout_stderr.log
-          find build/ENPM_808X_FINAL/ | grep -E 'gcda' # catch error -- expect to see .gcda files
-          colcon test-result --test-result-base build/ENPM_808X_FINAL/ # catch error
+          colcon test --packages-select tb3
+          cat log/latest_test/tb3/stdout_stderr.log
+          find build/tb3/ | grep -E 'gcda' # catch error -- expect to see .gcda files
+          colcon test-result --test-result-base build/tb3/ # catch error
       # Generate code coverage test report
       - name: Generate test coverage report
         run: |
           source install/setup.bash
-          ros2 run ENPM_808X_FINAL generate_coverage_report.bash
+          ros2 run tb3 generate_coverage_report.bash
       
       # Upload coverage result to CodeCov
       - name: Upload coverage result to CodeCov
         uses: codecov/codecov-action@v3
         with:
           token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-          files: ${{github.workspace}}/install/ENPM_808X_FINAL/lib/ENPM_808X_FINAL/coverage_cleaned.info
+          files: ${{github.workspace}}/install/tb3/lib/tb3/coverage_cleaned.info
           # flags: unittests # optional
           # directory: ${{github.workspace}}/install/
           # name: codecov-umbrella # optional

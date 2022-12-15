@@ -36,12 +36,6 @@ set(THIS_PACKAGE_INCLUDE_DEPENDS
 
 include_directories(include)
 
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Data.msg"
-  "srv/ChangeString.srv"
-  DEPENDENCIES std_msgs
-)
-
 if(COVERAGE)
   set(CMAKE_BUILD_TYPE "Debug")
   set(CMAKE_CXX_FLAGS "--coverage")

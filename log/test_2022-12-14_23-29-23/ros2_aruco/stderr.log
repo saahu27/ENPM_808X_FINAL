@@ -1,9 +1,0 @@
-[33m=============================== warnings summary ===============================[0m
-test/test_flake8.py::test_flake8
-test/test_flake8.py::test_flake8
-  Warning: SelectableGroups dict interface is deprecated. Use select.
-
-test/test_pep257.py: 25 warnings
-  Warning: invalid escape sequence '\*'
-
--- Docs: https://docs.pytest.org/en/stable/warnings.html

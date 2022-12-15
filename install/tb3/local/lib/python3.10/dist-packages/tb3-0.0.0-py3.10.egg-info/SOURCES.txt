@@ -1,6 +1,0 @@
-setup.py
-tb3/__init__.py
-tb3.egg-info/PKG-INFO
-tb3.egg-info/SOURCES.txt
-tb3.egg-info/dependency_links.txt
-tb3.egg-info/top_level.txt

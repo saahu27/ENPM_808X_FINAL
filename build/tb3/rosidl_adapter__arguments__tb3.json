@@ -1,7 +1,0 @@
-{
-  "package_name": "tb3",
-  "non_idl_tuples": [
-    "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL:msg/Data.msg",
-    "/home/chotu/ros2_ws/src/ENPM_808X_FINAL/ENPM_808X_FINAL:srv/ChangeString.srv"
-  ]
-}

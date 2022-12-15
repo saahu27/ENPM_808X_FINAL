@@ -2,12 +2,6 @@ cmake_minimum_required(VERSION 3.8)
 project(tb3)
 
 
-# clangd support
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CMAKE_CXX_STANDARD 17)
-execute_process(COMMAND "rm" "-f" "${CMAKE_SOURCE_DIR}/compile_commands.json")
-execute_process(COMMAND "ln" "-s" "-r" "${CMAKE_BINARY_DIR}/compile_commands.json" "${CMAKE_SOURCE_DIR}/")
-
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -48,6 +42,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES std_msgs
 )
 
+if(COVERAGE)
+  set(CMAKE_BUILD_TYPE "Debug")
+  set(CMAKE_CXX_FLAGS "--coverage")
+  set(CMAKE_CXX_OUTPUT_EXTENSION_REPLACE "ON")
+  set(ARG_CONFIG_FILE "${PROJECT_SOURCE_DIR}/uncrustify_google_cpp_allman.cfg"
+    CACHE STRING "uncrustify config file")
+endif()
     
 if(BUILD_TESTING)
   find_package(ament_cmake_gtest REQUIRED)
@@ -75,8 +76,9 @@ if(BUILD_TESTING)
   # DESTINATION lib/${PROJECT_NAME})
   
   set(TESTFILES
-  test/test.cpp)
-  #test/controller_test)
+  test/aruco_test.cpp
+  test/controller_test.cpp
+  test/main.cpp)
   ament_add_gtest(${PROJECT_NAME}_test ${TESTFILES})
   ament_target_dependencies(${PROJECT_NAME}_test rclcpp tutorial_interfaces std_msgs geometry_msgs sensor_msgs nav_msgs tf2 tf2_ros)
 

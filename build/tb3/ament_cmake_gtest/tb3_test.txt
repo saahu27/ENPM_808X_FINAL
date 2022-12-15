@@ -1,8 +1,0 @@
--- run_test.py: invoking following command in '/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3':
- - /home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/tb3_test --gtest_output=xml:/home/chotu/ros2_ws/src/ENPM_808X_FINAL/build/tb3/test_results/tb3/tb3_test.gtest.xml
-
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from TaskPlanningFixture
-[ RUN      ] TaskPlanningFixture.TrueIsTrueTest
-[INFO] [1671085723.180330242] [basic_test]: DONE WITH CONSTRUCTOR!!

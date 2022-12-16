@@ -84,15 +84,7 @@ double tb3::normalize_angle_positive(double angle) {
   return result;
 }
 
-double tb3::normalize_angle(double angle) {
-  const double result = fmod(angle + M_PI, 2.0 * M_PI);
-  if (result <= 0.0) return result + M_PI;
-  return result - M_PI;
-}
-
 void tb3::go_to_goal_callback() {
-  std::pair<double, double> goal{m_goal_x, m_goal_y};
-
   if ((!m_go_to_goal) && (!m_go_to_angle))
     if (goals.size() != 0) {
       set_goal(goals);
@@ -115,8 +107,7 @@ void tb3::go_to_goal_callback() {
       // w = m_normalize_angle_positive(w);
     }
 
-    // proportional control for linear velocity
-    double linear_x = 0.0;
+    
     w = abs(w);
     // proportional control for angular velocity
     double angular_z = m_kh * w;
@@ -126,6 +117,8 @@ void tb3::go_to_goal_callback() {
       angular_z = std::max(angular_z, -m_angular_speed);
 
     if (w > 0.05) {
+      // proportional control for linear velocity
+      double linear_x = 0.0;
       move_tb3(linear_x, angular_z);
     } else {
       m_go_to_angle = false;

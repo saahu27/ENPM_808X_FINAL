@@ -46,8 +46,8 @@ using namespace std::chrono_literals;
 
 class tb3 : public rclcpp::Node {
  public:
-  tb3(const std::string node_name = "tb3",
-      const std::string robot_name = "robot", bool go_to_goal = true,
+  tb3(const std::string& node_name = "tb3",
+      const std::string& robot_name = "robot", bool go_to_goal = true,
       double linear_speed = 0.5, double angular_speed = 0.1,
       bool go_to_angle = true)
       : Node(node_name),
@@ -74,7 +74,6 @@ class tb3 : public rclcpp::Node {
         rclcpp::CallbackGroupType::MutuallyExclusive);
 
     auto command_topic_name = "/cmd_vel";
-    auto pose_topic_name = "/odom";
 
     RCLCPP_INFO_STREAM(this->get_logger(), "tb3controller Constructor");
 
@@ -176,14 +175,6 @@ class tb3 : public rclcpp::Node {
    * @return double Normalized angle (rad)
    */
   double normalize_angle_positive(double angle);
-
-  /**
-   * @brief Normalizes the angle to be -M_PI circle to +M_PI circle
-   *
-   * @param angle Angle to normalize (rad)
-   * @return double Normalized angle (rad)
-   */
-  double normalize_angle(double angle);
 
   /**
    * @brief Subscribes to tf topic and updates current pose

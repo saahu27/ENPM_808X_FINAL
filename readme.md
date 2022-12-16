@@ -53,5 +53,8 @@ source install/setup.bash
 ros2 run tb3 generate_coverage_report.bash
 ```
 
+Known Bugs:
 
+- We have not used any path planning for navigation. Astar algo which we developed was not working as intended.
+- The test cases we developed was not being executed. We tried different things and it didnt work.
 

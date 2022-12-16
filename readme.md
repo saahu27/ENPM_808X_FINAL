@@ -59,6 +59,8 @@ ros2 run tb3 generate_coverage_report.bash
 
 [Sprint Planning Sheet](https://docs.google.com/document/d/1jmsCzZMhDV4vYkIBsq1OxhA2W3Id5yWly6dfnyGUrAE/edit)
 
+[Presentation](https://docs.google.com/presentation/d/1yycZ2xIvlMv7u-YH4N7T5y6cAZZ6OISVKyMDpMjmE5A/edit?usp=sharing)
+
 UML Diagram:
 
 ![UML Class Diagram](https://github.com/saahu27/ENPM_808X_FINAL/blob/main/UML/final/UML_class_diagram.png?raw=true "Title")

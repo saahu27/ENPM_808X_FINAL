@@ -54,6 +54,15 @@ cat log/latest_test/tb3/stdout_stderr.log
 source install/setup.bash
 ros2 run tb3 generate_coverage_report.bash
 ```
+## Static Code 
+```
+cd <path to repository>/ENPM_808X_Final
+cppcheck --enable=all --std=c++11 -I include/ --suppress=missingInclude $( find . -name \*.hpp -or -name *.cpp | grep -vE -e "^./build/" -e "^./vendor/")
+```
+```
+cd <path to repository>/ENPM_808X_Final
+cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order $( find . -name \*.hpp -or -name \*.cpp | grep -vE -e "^./build/" -e "^./vendor/" )
+```
 
 [AIP Sheet](https://docs.google.com/spreadsheets/d/12jQ-N1z6aNx08tzQ0vjAypztQB04JdK8wfJC_l7KlUk/edit#gid=0)
 

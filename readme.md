@@ -1,4 +1,6 @@
-# ENPM_808X_FINAL
+# ENPM808X FINAL Project
+
+After obtaining sufficient funding, ACME Robotics is looking for developing robots for different applications. Our team is proposing a software stack for the robot that enables inventory management. The robot has a knowledge of the environment and has to navigate to multiple locations inside a warehouse in order to collect information regarding the products in the warehouse. The products have unique tags on them which would be scanned by the robot to identify the product and maintain the count. The warehouse is a dynamic environment and the obstacles need not be in the same position. Given the goal locations, we implemenr a controller to navigate to the product isles.   
 
 [![Build Status](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/my_codecov_upload.yml/badge.svg)](https://github.com/saahu27/ENPM_808X_FINAL/actions/workflows/my_codecov_upload.yml)    [![codecov](https://codecov.io/gh/saahu27/ENPM_808X_FINAL/branch/main/graph/badge.svg?token=5DVHEL8JLR)](https://codecov.io/gh/saahu27/ENPM_808X_FINAL)   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -52,6 +54,16 @@ cat log/latest_test/tb3/stdout_stderr.log
 source install/setup.bash
 ros2 run tb3 generate_coverage_report.bash
 ```
+
+AIP Sheet: https://docs.google.com/spreadsheets/d/12jQ-N1z6aNx08tzQ0vjAypztQB04JdK8wfJC_l7KlUk/edit#gid=0
+
+Sprint Planning Shett: https://docs.google.com/document/d/1jmsCzZMhDV4vYkIBsq1OxhA2W3Id5yWly6dfnyGUrAE/edit
+
+UML Diagram:
+
+![UML Class Diagram](https://github.com/saahu27/ENPM_808X_FINAL/blob/main/UML/final/UML_class_diagram.png?raw=true "Title")
+
+![Activity Diagram](https://github.com/saahu27/ENPM_808X_FINAL/blob/main/UML/final/UML_activity_diagram.png?raw=true "Title")
 
 Known Bugs:
 

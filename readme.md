@@ -55,9 +55,9 @@ source install/setup.bash
 ros2 run tb3 generate_coverage_report.bash
 ```
 
-AIP Sheet: https://docs.google.com/spreadsheets/d/12jQ-N1z6aNx08tzQ0vjAypztQB04JdK8wfJC_l7KlUk/edit#gid=0
+AIP Sheet(https://docs.google.com/spreadsheets/d/12jQ-N1z6aNx08tzQ0vjAypztQB04JdK8wfJC_l7KlUk/edit#gid=0)
 
-Sprint Planning Shett: https://docs.google.com/document/d/1jmsCzZMhDV4vYkIBsq1OxhA2W3Id5yWly6dfnyGUrAE/edit
+Sprint Planning Sheet (https://docs.google.com/document/d/1jmsCzZMhDV4vYkIBsq1OxhA2W3Id5yWly6dfnyGUrAE/edit)
 
 UML Diagram:
 

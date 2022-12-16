@@ -107,7 +107,6 @@ void tb3::go_to_goal_callback() {
       // w = m_normalize_angle_positive(w);
     }
 
-    
     w = abs(w);
     // proportional control for angular velocity
     double angular_z = m_kh * w;

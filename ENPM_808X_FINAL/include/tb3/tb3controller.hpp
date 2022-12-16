@@ -89,10 +89,10 @@ class tb3 : public rclcpp::Node {
 
     // Call on_timer function 5 times per second
     m_transform_timer = this->create_wall_timer(
-        std::chrono::milliseconds((int)(1000.0 / 5)),
+        std::chrono::milliseconds(static_cast<int>(1000.0 / 5)),
         std::bind(&tb3::transform_callback, this), m_cbg);
     m_go_to_goal_timer = this->create_wall_timer(
-        std::chrono::milliseconds((int)(1000.0 / 1)),
+        std::chrono::milliseconds(static_cast<int>(1000.0 / 1)),
         std::bind(&tb3::go_to_goal_callback, this), m_cbg);
   }
   /**

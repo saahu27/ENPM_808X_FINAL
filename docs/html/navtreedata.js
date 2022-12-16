@@ -24,12 +24,37 @@
 */
 var NAVTREE =
 [
-  [ "ENPM_808X_FINAL", "index.html", ]
+  [ "ENPM_808X_FINAL", "index.html", [
+    [ "ENPM808X FINAL Project", "md_readme.html", [
+      [ "ROS 2 dependencies", "md_readme.html#autotoc_md1", null ],
+      [ "Creating the workspace and building the package", "md_readme.html#autotoc_md2", null ],
+      [ "Launch Demo shown during presentation", "md_readme.html#autotoc_md3", null ],
+      [ "build for test coverage", "md_readme.html#autotoc_md4", null ],
+      [ "Run unit tests", "md_readme.html#autotoc_md5", null ],
+      [ "Generate code coverage report", "md_readme.html#autotoc_md6", null ],
+      [ "Static Code", "md_readme.html#autotoc_md7", null ]
+    ] ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ]
+    ] ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Functions", "functions_func.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
+    ] ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"____init_____8py_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

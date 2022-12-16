@@ -72,7 +72,7 @@ if(BUILD_TESTING)
   set(TESTFILES
   test/aruco_test.cpp
   test/controller_test.cpp
-  test/sam.cpp
+  test/Perception_Test.cpp
   test/main.cpp)
   ament_add_gtest(${PROJECT_NAME}_test ${TESTFILES})
   ament_target_dependencies(${PROJECT_NAME}_test rclcpp tutorial_interfaces std_msgs geometry_msgs sensor_msgs nav_msgs tf2 tf2_ros)

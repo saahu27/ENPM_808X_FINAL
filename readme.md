@@ -65,7 +65,7 @@ cppcheck --enable=all --std=c++11 -I include/ --suppress=missingInclude $( find 
 cd <path to repository>/ENPM_808X_Final
 cpplint --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order $( find . -name \*.hpp -or -name \*.cpp | grep -vE -e "^./build/" -e "^./vendor/" )
 ```
-##Doxygen
+## Doxygen
 ```
 cd <path to repository>/Docs
 

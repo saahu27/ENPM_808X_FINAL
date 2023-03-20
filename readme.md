@@ -85,8 +85,3 @@ UML Diagram:
 
 ![Activity Diagram](https://github.com/saahu27/ENPM_808X_FINAL/blob/main/UML/final/UML_activity_diagram.png?raw=true "Title")
 
-Known Bugs:
-
-- We have not used any path planning for navigation. Astar algo which we developed was not working as intended.
-- The test cases we developed was not being executed. We tried different things and it didnt work.
-
